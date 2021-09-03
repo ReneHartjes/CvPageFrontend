@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.services {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+}
+
+.pic1con {
+  width: 600px;
+  height: 400px;
+  margin: 10px;
+  padding: 20px;
+
+  border-radius: 25px;
+  background-image: url("./images/opcbg2.png");
+
+  display: flex;
+}
+
+.pic2con {
+  width: 600px;
+  height: 400px;
+  margin: 10px;
+  padding: 20px;
+
+  border-radius: 25px;
+  background-image: url("./images/opcbg2.png");
+  display: flex;
+}
+
+.pic1con a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.pic2con a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.pic1 {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border: 3px white solid;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.pic2 {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border: 3px white solid;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.pic1:hover {
+  opacity: 0.5;
+}
+
+.pic2:hover {
+  opacity: 0.5;
+}
+
+.links {
+  width: 70%;
+}
+
+.rechts p {
+  margin-right: 10px;
+  margin-top: 25px;
+  margin-left: 15px;
+  font-size: 18px;
+  padding: 5px;
+  padding-bottom: 25px;
+}
+.links2 {
+  width: 70%;
+}
+
+.rechts2 p {
+  padding: 5px;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-top: 25px;
+  font-size: 18px;
+  padding-bottom: 25px;
+}
+
+.rechts {
+  margin-top: 35px;
+}
+
+.rechts2 {
+  margin-top: 35px;
+}
+
+.rechts h3 {
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(95, 94, 94);
+}
+
+.rechts2 h3 {
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(95, 94, 94);
+}

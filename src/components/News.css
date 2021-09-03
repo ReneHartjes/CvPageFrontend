@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Newest {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  color: aliceblue;
+}
+
+.para1 {
+  width: auto;
+  height: auto;
+  font-size: 24px;
+  margin: 30px;
+  padding: 25px;
+  border: solid 2px black;
+}
+
+.theTable {
+  width: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  height: auto;
+
+  align-self: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.Newscontainer {
+  display: flex;
+  height: auto;
+  margin-top: 30px;
+  align-self: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.picturelink {
+  width: 100px;
+  height: auto;
+  border: 1px solid rgb(95, 94, 94);
+  margin-left: 12px;
+  border-radius: 5px;
+}
+
+#headline {
+  color: whitesmoke;
+  font-size: 25px;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#headlinec {
+  border-bottom: 2px solid rgb(95, 94, 94);
+}
+
+.picturelink:hover {
+  opacity: 0.5;
+}

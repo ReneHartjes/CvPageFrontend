@@ -1,0 +1,46 @@
+.mainnav2 > ul {
+  display: inline;
+  padding: 10px;
+
+  line-height: 30px;
+}
+
+.mainnav2 > ul > li > ul > li {
+  display: none;
+}
+
+.mainnav2 ul li:hover ul li {
+  display: block;
+  justify-self: start;
+  margin: 5px;
+  max-inline-size: 40px;
+  position: relative;
+  left: -60px;
+}
+
+.mainnav2 ul li:hover #beep li {
+  display: block;
+  justify-self: start;
+  margin: 5px;
+  max-inline-size: 40px;
+  position: relative;
+  left: -45px;
+}
+
+.mainnav2 > ul > li {
+  align-items: initial;
+  display: inline-flex;
+  margin: 10px;
+  float: left;
+}
+
+#pops {
+  display: none;
+}
+.mainnav2 {
+  overflow: hidden;
+}
+.ept {
+  width: 100%;
+  height: 520px;
+}

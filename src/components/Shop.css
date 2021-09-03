@@ -1,0 +1,154 @@
+.shopcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url("./images/opcbg2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#pline1 {
+  margin: 5px;
+  padding: 5px;
+}
+
+.shopcontainer img {
+  width: 150px;
+  padding: 5px;
+  justify-items: right;
+}
+#pline2 {
+  margin: 5px;
+  padding: 5px;
+}
+
+.break {
+  flex-basis: 100%;
+  width: 100%;
+  height: 2px;
+}
+
+#prod1 {
+  border: 1px grey solid;
+  margin: 5px;
+  padding: 5px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: black;
+}
+#prod2 {
+  border: 1px grey solid;
+  margin: 5px;
+  padding: 5px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: black;
+}
+#prod3 {
+  border: 1px grey solid;
+  margin: 5px;
+  padding: 5px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: black;
+}
+
+#prod4 {
+  border: 1px grey solid;
+  margin: 5px;
+  padding: 5px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: black;
+}
+
+#prod5 {
+  border: 1px grey solid;
+  margin: 5px;
+  padding: 5px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: black;
+}
+
+#prod6 {
+  border: 1px grey solid;
+  margin: 5px;
+  padding: 5px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: black;
+}
+
+#prod7 {
+  border: 1px grey solid;
+  margin: 5px;
+  padding: 5px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: black;
+}
+
+#prod8 {
+  border: 1px grey solid;
+  margin: 5px;
+  padding: 5px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: black;
+}
+
+#headliner {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 5px;
+}
+
+#headliner h1 {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#headliner button {
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white;
+  background-color: #333;
+  width: auto;
+  padding: 10px;
+}
+
+.Wholecontainer {
+  border: grey solid 1px;
+  width: 50%;
+  margin: auto;
+  color: whitesmoke;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+
+.shopcontainer img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.shopcontainer button {
+  padding: 7px;
+  background-color: maroon;
+  color: white;
+  margin-top: 10px;
+}
+
+.shopcontainer h3 {
+  font-size: 18px;
+}
+
+.shopcontainer p {
+  font-size: 14px;
+}

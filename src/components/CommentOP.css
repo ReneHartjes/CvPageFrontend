@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.wholepack {
+  display: table;
+  margin: auto;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  height: 150px;
+  border: 1px rgb(71, 68, 68) solid;
+
+  background-image: url("./images/opcbg2.png");
+  background-size: cover;
+}
+
+.uid {
+  text-align: center;
+}
+
+.uid h2 {
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+  background-color: rgb(58, 58, 211);
+  opacity: 0.8;
+}
+.texts {
+  text-align: left;
+  color: black;
+  font-size: 22px;
+  margin: 10px;
+  margin-top: -5px;
+}
+.date {
+  margin: 10px;
+}
+
+.texts > p {
+  color: aliceblue;
+  padding: 15px;
+  border: 1px white solid;
+}
+.date > h4 {
+  color: aliceblue;
+  margin-top: -5px;
+}
+.para {
+  color: whitesmoke;
+}
+
+/*   INPUTSSS */
+
+.name {
+  width: 150px;
+  height: 30px;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+.lblc {
+  font-size: 19px;
+  color: White;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.lblcn {
+  font-size: 19px;
+  color: White;
+  margin-left: 10%;
+}
+.msg {
+  width: 400px;
+  height: 150px;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.msg > input {
+  text-align: left;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+.toppy {
+  display: flex-box;
+}
+
+.Ipsec {
+  width: 600px;
+  height: 600px;
+  background-image: url("./images/opcbg2.png");
+
+  border-radius: 20px;
+  margin-top: 50px;
+  display: flexbox;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 150px;
+  height: 40px;
+  margin-left: 10%;
+}
+
+.btn:hover {
+  width: 250;
+  height: auto;
+  opacity: 0.7;
+}

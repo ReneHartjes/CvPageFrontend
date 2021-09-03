@@ -1,0 +1,36 @@
+.longp {
+  width: 40%;
+  margin: auto;
+  height: 400px;
+  text-align: center;
+  justify-content: center;
+  color: aliceblue;
+}
+
+.pc1 {
+  width: 400px;
+  height: auto;
+  border-radius: 50%;
+}
+.theparas {
+  display: flex;
+  width: 900px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.child1 {
+  display: flexbox;
+  margin-top: 50px;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+
+.thepara1 {
+  display: flexbox;
+  width: 400px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}

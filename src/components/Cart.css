@@ -1,0 +1,28 @@
+.Carty {
+  width: 100%;
+  height: 250px;
+  background-image: url("./images/opcbg2.png");
+}
+
+.pic1s {
+  width: 50px;
+}
+
+.Carty img {
+  max-width: 100px;
+}
+
+.listec .bundle {
+  text-align: left;
+  border: 1px grey solid;
+  background-image: url("./images/opcbg2.png");
+  padding: 5px;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bundle p {
+  border-bottom: solid white 2px;
+}

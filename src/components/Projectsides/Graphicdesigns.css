@@ -1,0 +1,99 @@
+.erstelinie {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.zweitelinie {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.drittelinie {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallerypic {
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  border: grey solid 1px;
+  padding: 2px;
+  background-image: url(../images/opcbg2.png);
+  border-radius: 5px;
+}
+
+.gallerypic:hover {
+  width: 600px;
+  height: 600px;
+  float: left;
+}
+
+.topsy {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.topsy p {
+  padding: 15px;
+  border-bottom: grey 1px solid;
+}
+
+.topsy h2 {
+  border: solid grey 1px;
+  width: 300px;
+  margin: auto;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.spimg {
+  margin-top: 35px;
+  border: grey solid 1px;
+  box-shadow: black 2px 2px 3px;
+  border-radius: 30px;
+  width: 750px;
+}
+
+.overview {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  text-align: center;
+}
+
+.headliner {
+  margin: auto;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 30px;
+  border-bottom: grey solid 1px;
+
+  width: 500px;
+  padding: 5px;
+}
+
+.headliner p {
+  padding: 5px;
+}
+
+.gallery a:hover {
+  opacity: 0.7;
+}
+
+.gallery {
+  margin-top: 35px;
+}

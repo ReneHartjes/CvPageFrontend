@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+.service {
+  margin: 0px;
+  padding: 0px;
+}
+.Service1 {
+  width: 250px;
+  height: auto;
+  border: 1px white solid;
+  margin: 20px;
+  border-radius: 8px;
+  display: flex;
+  padding-right: 7px;
+}
+
+.Service1:hover {
+  opacity: 0.5;
+}
+.Service2:hover {
+  opacity: 0.5;
+}
+.Service3:hover {
+  opacity: 0.5;
+}
+
+.Service2 {
+  width: 250px;
+  height: auto;
+  border: 1px white solid;
+  margin: 20px;
+  border-radius: 8px;
+  display: flex;
+  padding-right: 7px;
+}
+
+.Service3 {
+  width: 250px;
+  height: auto;
+  border: 1px white solid;
+  margin: 20px;
+  border-radius: 8px;
+  display: flex;
+  padding-right: 7px;
+}
+.service {
+  height: 250px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.i1 {
+  height: auto;
+  width: 120px;
+  float: left;
+  margin: 10px;
+  border-radius: 30%;
+}
+
+.i2 {
+  height: auto;
+  width: 120px;
+  float: left;
+  margin: 10px;
+  border-radius: 30%;
+}
+
+.i3 {
+  height: auto;
+  width: 120px;
+  float: left;
+  margin: 10px;
+  border-radius: 30%;
+}
+
+.p1 {
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+}
+
+.p2 {
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+}
+
+.p3 {
+  font-size: 20px;
+  text-align: center;
+  margin: 5px;
+}
+
+.ptxt1 {
+  font-size: 14px;
+  float: right;
+  margin-top: 50px;
+}
+.ptxt2 {
+  margin-top: 50px;
+  font-size: 14px;
+  width: 90%;
+  margin-right: 5px;
+  float: right;
+}
+.ptxt3 {
+  font-size: 14px;
+  float: right;
+  margin-top: 50px;
+}

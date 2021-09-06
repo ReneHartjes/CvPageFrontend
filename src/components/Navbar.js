@@ -9,7 +9,13 @@ import Logo from "./images/Logo.png"
 function Navbar() {
     return (
 <div className="mainnav2">
-          
+          <div className="btnnav">
+        <Link to="/"> <button >Home</button></Link>
+        <br></br>
+        <Link to="/comments"> <button >Guestbook</button></Link>
+        <br></br>
+        <Link to="/projects"> <button >Projects</button></Link></div>
+
           <ul>
         <li><Link to="/">Welcome</Link>
         <ul id="pops">

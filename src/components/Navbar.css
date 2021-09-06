@@ -16,9 +16,11 @@
   max-inline-size: 40px;
   position: relative;
   left: -60px;
+  transition: 1s;
 }
 
 .mainnav2 ul li:hover #beep li {
+  transition: 1s;
   display: block;
   justify-self: start;
   margin: 5px;
@@ -43,4 +45,28 @@
 .ept {
   width: 100%;
   height: 520px;
+}
+.btnnav {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  .mainnav2 ul {
+    display: none;
+  }
+  .btnnav {
+    display: block;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+  }
+  .btnnav button {
+    width: 100%;
+    color: white;
+    background-color: maroon;
+    margin-top: 15px;
+    padding: 15px;
+    box-shadow: 2px 2px 2px grey;
+  }
 }

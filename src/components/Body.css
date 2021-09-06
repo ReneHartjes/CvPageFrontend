@@ -115,3 +115,29 @@
   padding-bottom: 5px;
   border-bottom: 1px solid rgb(95, 94, 94);
 }
+
+@media (max-width: 450px) {
+  .services {
+    display: none;
+  }
+
+  .pic1con {
+    display: none;
+  }
+
+  .pic2con {
+    display: none;
+  }
+  .rechts {
+    display: none;
+  }
+  .rechts2 {
+    display: none;
+  }
+  .links {
+    display: none;
+  }
+  .links2 {
+    display: none;
+  }
+}

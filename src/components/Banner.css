@@ -65,6 +65,7 @@
   position: relative;
   left: -80px;
   max-inline-size: 40px;
+  transition: 1s;
 }
 
 .mainnav ul li:hover #shnu li {
@@ -74,6 +75,7 @@
   position: relative;
   left: -60px;
   max-inline-size: 40px;
+  transition: 1s;
 }
 
 .mainnav > ul > li {
@@ -97,4 +99,50 @@
 
 .mainnav a:hover {
   opacity: 0.5;
+}
+
+#thealt {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  .mainnav ul {
+    display: none;
+  }
+
+  #thealt {
+    display: flex;
+    justify-content: center;
+  }
+  .welcometxt {
+    margin-top: -200px;
+  }
+
+  .container {
+    height: 350px;
+  }
+}
+
+@media (min-width: 450) {
+  #pipipopo {
+    display: none;
+  }
+}
+
+.clickbtn {
+  width: 100%;
+  background-color: maroon;
+  color: white;
+  margin: 2px;
+  padding: 7px;
+  opacity: 0.8;
+}
+
+#triggerbtn {
+  width: 100%;
+  background-color: maroon;
+  box-shadow: 2px 2px black;
+  padding: 15px;
+  color: white;
+  font-size: 22px;
 }

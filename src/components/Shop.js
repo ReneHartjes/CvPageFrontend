@@ -83,7 +83,10 @@ export default function Shop() {
         console.log({isopen})
 
     }
+    function poppy(){
 
+        window.location.reload();
+    }
 
     return (
 
@@ -91,12 +94,13 @@ export default function Shop() {
 
         <div className="Wholecontainer">
                 <div id="headliner">
-              <h1> This is A simple "Shop"  {adder} {idee.map}</h1> 
-              <button onClick={()=>setisopen(true)}>Cart</button>
+              <h1> This is A simple "Shop"   {idee.map}</h1> 
+              <button onClick={()=>setisopen(true)}>Cart({adder})</button>
               <button onClick={()=>setisopen(false)}>minimize</button>
+              <button onClick={poppy}>Empty Cart</button>
               
             </div>
-            <Cart open={isopen} ids={idee} pro1={pro1} pro2={pro2}></Cart>
+            <Cart open={isopen} ids={idee} pro1={pro1} pro2={pro2} ></Cart>
     
 
         <div className="shopcontainer">

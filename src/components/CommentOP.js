@@ -38,10 +38,11 @@ function CommentOP() {
       <div className="Ipsec">
         
         <div className="inputc">
-
+          
         <div className="toppy">
           <br></br>
-        <label className="lblcn"> Name:</label> 
+          <h2> Leave a comment: </h2>
+        <label id="lblcn"> Name:</label> 
         
         <br></br>
       <input type="text" name="ipname" className="name" onChange={(e) => {changename(e.target.value)}}/>

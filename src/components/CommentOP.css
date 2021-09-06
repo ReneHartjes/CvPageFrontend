@@ -43,7 +43,9 @@ body {
 .date {
   margin: 10px;
 }
-
+.cmtcontainer label {
+  margin-top: 10px;
+}
 .texts > p {
   color: aliceblue;
   padding: 15px;
@@ -57,6 +59,16 @@ body {
   color: whitesmoke;
 }
 
+.toppy h2 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px black;
+
+  padding: 5px;
+}
+
 /*   INPUTSSS */
 
 .name {
@@ -68,15 +80,15 @@ body {
 .lblc {
   font-size: 19px;
   color: White;
+  margin-bottom: -15%;
   margin-left: 10%;
-  margin-top: 2%;
-  margin-bottom: 2%;
 }
 
-.lblcn {
+#lblcn {
   font-size: 19px;
   color: White;
   margin-left: 10%;
+  margin-top: 15%;
 }
 .msg {
   width: 400px;
@@ -118,4 +130,22 @@ body {
   width: 250;
   height: auto;
   opacity: 0.7;
+}
+
+@media (max-width: 450) {
+  .wholepack {
+    width: 350px;
+  }
+
+  .cmst {
+    width: 100%;
+  }
+
+  .Ipsec {
+    width: 450px;
+  }
+
+  .texts {
+    width: 150px;
+  }
 }

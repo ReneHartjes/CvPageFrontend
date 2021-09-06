@@ -5,13 +5,50 @@ import Navbar from "./Navbar";
 import pc2 from "./images/bg1.jpg"
 import {Link} from 'react-router-dom'
 
+import {useState} from 'react'
+
+
+
+  
 function Banner() {
+  
+  
+  
+  const [click, clicker] = useState(false)
+  
+
+  function staty(){
+    clicker(true)
+  }
+
+  if (click) {
+  return(
+    <div id="pipipopo">
+    <Link to="/"><button className="clickbtn">Start</button> </Link>
+    <Link to="/projects"><button className="clickbtn">About</button> </Link>
+    <Link to="/projects"><button className="clickbtn">Projects</button></Link>
+    <Link to="/comments"><button className="clickbtn">Guestbook</button></Link>
+    
+    </div>)
+  
+  }
     return (
       <div className="container">
 
+  
+
 
 <div className="mainnav">
-          
+          <div id="thealt">
+          <div id="pipipopo">
+    <Link to="/"><button className="clickbtn">Start</button> </Link>
+    <Link to="/projects"><button className="clickbtn">About</button> </Link>
+    <Link to="/projects"><button className="clickbtn">Projects</button></Link>
+    <Link to="/comments"><button className="clickbtn">Guestbook</button></Link>
+    
+    </div>
+            
+          </div>
           <ul>
         <li><Link to="/">Welcome</Link>
         <ul id="pops">

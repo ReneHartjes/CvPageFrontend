@@ -8,6 +8,7 @@ import News from "./components/News";
 import Comments from "./components/Comments";
 import Shop from "./components/Shop";
 import CommentOP from "./components/CommentOP";
+import ActualCV from "./components/Projectsides/ActualCV";
 import "./index.css"
 import {BrowserRouter, Switch, Route} from "react-router-dom"
 
@@ -19,6 +20,7 @@ function Mainp() {
     
     <Body />
     <Services />
+    <ActualCV />
     <Shop></Shop>
     <Comments></Comments>
     <News />

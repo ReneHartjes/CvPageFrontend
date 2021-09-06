@@ -39,6 +39,7 @@
   width: 600px;
   height: 600px;
   float: left;
+  transition: 1s;
 }
 
 .topsy {
@@ -91,7 +92,7 @@
 }
 
 .gallery a:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .gallery {

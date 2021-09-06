@@ -14,17 +14,17 @@ export default function Cart({open,children,pro1,pro2}) {
   bongo = bongo.sort()
    console.log(bongo)
 
-        function piceval(){
+        const counter = null;
+        const vals =null;
 
-                if(bongo.id == 1){
 
-                        return (<img src={pc1} ></img>)
+        function poppy(sum){
 
-                        
-                }
+                var sum = bongo.Price.reduce(function(a, b){
+                        return a + b;
+                    }, 0);
 
-                
-               }
+        }
 
      if (!open) return null
 
@@ -35,14 +35,14 @@ export default function Cart({open,children,pro1,pro2}) {
     return (
 
 
-
+                <>
             <div className="listec">
                     {bongo.map((bongoval) =>{
 
                             return <div className="bundle">
                             <h3>{bongoval.name}</h3> 
                             <h3>{bongoval.Price}</h3> 
-                                {piceval}
+<h3> {poppy}</h3>
                             <p>{bongoval.texty}</p>
                          
                             </div>
@@ -52,6 +52,9 @@ export default function Cart({open,children,pro1,pro2}) {
 
             </div>
 
+                    
+
+                        </>
     )}
   
 }

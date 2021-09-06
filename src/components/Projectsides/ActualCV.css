@@ -1,0 +1,23 @@
+#opener {
+  width: 200px;
+  color: whitesmoke;
+  background-color: maroon;
+  box-shadow: 2px 2px 1px black;
+  height: 80px;
+}
+
+.cvcontainer {
+  margin-top: 15px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+.cvopener {
+  margin: auto;
+}
+
+.cvopener h2 {
+  color: whitesmoke;
+  text-transform: uppercase;
+}

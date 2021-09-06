@@ -38,24 +38,24 @@ function Graphicdesigns() {
         <div className="gallery">
 
             <div className="erstelinie">
-            <a href={pic1}><img src={pic1} className="gallerypic"></img></a>
-            <a href={pic2}><img src={pic2} className="gallerypic"></img></a>
-            <a href={pic3}><img src={pic3} className="gallerypic"></img></a>
+            <a href><img src={pic1} className="gallerypic"></img></a>
+            <a href><img src={pic2} className="gallerypic"></img></a>
+            <a href><img src={pic3} className="gallerypic"></img></a>
 
             </div>
             
 
             <div className="zweitelinie">
-            <a href={pic4}><img src={pic4} className="gallerypic"></img></a>
-            <a href={pic5}><img src={pic5} className="gallerypic"></img></a>
-            <a href={pic6}><img src={pic6} className="gallerypic"></img></a>
+            <a href><img src={pic4} className="gallerypic"></img></a>
+            <a href><img src={pic5} className="gallerypic"></img></a>
+            <a href><img src={pic6} className="gallerypic"></img></a>
 
             </div>
 
             <div className="drittelinie">
-            <a href={pic7}><img src={pic7} className="gallerypic"></img></a>
-            <a href={pic8}><img src={pic8} className="gallerypic"></img></a>
-            <a href={pic9}><img src={pic9} className="gallerypic"></img></a>
+            <a href><img src={pic7} className="gallerypic"></img></a>
+            <a href><img src={pic8} className="gallerypic"></img></a>
+            <a href><img src={pic9} className="gallerypic"></img></a>
 
             </div>
 

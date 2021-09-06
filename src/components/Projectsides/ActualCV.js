@@ -1,6 +1,7 @@
 import React from 'react'
 import Cvpopup from './Cvpopup'
 import { useState } from 'react'
+import './ActualCV.css'
 
 export default function ActualCV() {
 
@@ -22,14 +23,14 @@ export default function ActualCV() {
            
 
 
-
+            <div className="cvopener">
             <h2>Skillset:</h2>
             <button id="opener" onClick={()=>setblub(true)}>CLICKTOOPEN</button>
-            <button id="closer"onClick={()=>setblub(false)} >Close</button>
+            
             
              <Cvpopup opener= {blub} />
 
-
+            </div>
 
 
 

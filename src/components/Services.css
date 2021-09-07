@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.services {
+.services2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,7 +57,7 @@ body {
   padding-right: 7px;
 }
 .service {
-  height: 250px;
+  height: 200px;
   width: 100%;
   background-color: black;
   opacity: 0.9;
@@ -111,11 +111,11 @@ body {
   margin-top: 50px;
 }
 .ptxt2 {
-  margin-top: 50px;
   font-size: 14px;
   width: 90%;
   margin-right: 5px;
   float: right;
+  margin-top: 50px;
 }
 .ptxt3 {
   font-size: 14px;
@@ -124,7 +124,7 @@ body {
 }
 
 @media (max-width: 450px) {
-  .services {
+  .services2 {
     display: block;
     margin: auto;
   }

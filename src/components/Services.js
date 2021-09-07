@@ -21,7 +21,7 @@ function Services() {
 
       <div className="service">
                 
-        <div className="services">
+        <div className="services2">
 
            <Link to="/projects" style={linkStyle}> <div className="Service1">
                 <div className="s1l">

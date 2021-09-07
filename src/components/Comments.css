@@ -15,3 +15,9 @@
 
   box-shadow: 3px 3px 2px black;
 }
+
+@media (max-width: 450px) {
+  .vid {
+    display: none;
+  }
+}

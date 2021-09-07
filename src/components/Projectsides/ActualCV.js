@@ -25,7 +25,7 @@ export default function ActualCV() {
 
             <div className="cvopener">
             <h2>Skillset:</h2>
-            <button id="opener" onClick={()=>setblub(true)}>CLICKTOOPEN</button>
+            <button id="opener" onClick={()=>setblub(true)}>CLICK TO OPEN</button>
             
             
              <Cvpopup opener= {blub} />

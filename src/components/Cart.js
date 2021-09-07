@@ -29,7 +29,7 @@ export default function Cart({open,children,pro1,pro2}) {
      if (!open) return null
 
     if(bongo.length ==0){
-            return(<h1>Nothing in here</h1>)
+            return(<h1 id="nuffin">Nothing in your "Cart" </h1>)
                 } 
                 if(bongo.length >=1 )  {     
     return (

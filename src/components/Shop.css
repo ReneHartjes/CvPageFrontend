@@ -1,13 +1,33 @@
 .shopcontainer {
   width: 100%;
+
+  border-radius: 15px;
   display: flex;
   justify-content: center;
   text-align: center;
-  background-image: url("./images/opcbg2.png");
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v462-n-130-textureidea_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9465282a2b0a375f4f5b120d7bbad882");
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media (max-width: 550px) {
+  .shopcontainer {
+    display: block;
+  }
 
+  #headliner {
+    display: block;
+  }
+
+  #headliner button {
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+  }
+
+  #headliner h1 {
+    display: none;
+  }
+}
 #pline1 {
   margin: 5px;
   padding: 5px;
@@ -30,7 +50,7 @@
 }
 
 #prod1 {
-  border: 1px grey solid;
+  border: 1px #333 solid;
   margin: 5px;
   padding: 5px;
   width: 250px;
@@ -38,7 +58,7 @@
   background-color: black;
 }
 #prod2 {
-  border: 1px grey solid;
+  border: 1px #333 solid;
   margin: 5px;
   padding: 5px;
   width: 250px;
@@ -46,7 +66,7 @@
   background-color: black;
 }
 #prod3 {
-  border: 1px grey solid;
+  border: 1px #333 solid;
   margin: 5px;
   padding: 5px;
   width: 250px;
@@ -55,7 +75,7 @@
 }
 
 #prod4 {
-  border: 1px grey solid;
+  border: 1px #333 solid;
   margin: 5px;
   padding: 5px;
   width: 250px;
@@ -64,7 +84,7 @@
 }
 
 #prod5 {
-  border: 1px grey solid;
+  border: 1px #333 solid;
   margin: 5px;
   padding: 5px;
   width: 250px;
@@ -73,7 +93,7 @@
 }
 
 #prod6 {
-  border: 1px grey solid;
+  border: 1px #333 solid;
   margin: 5px;
   padding: 5px;
   width: 250px;
@@ -82,7 +102,7 @@
 }
 
 #prod7 {
-  border: 1px grey solid;
+  border: 1px #333 solid;
   margin: 5px;
   padding: 5px;
   width: 250px;
@@ -91,7 +111,7 @@
 }
 
 #prod8 {
-  border: 1px grey solid;
+  border: 1px #333 solid;
   margin: 5px;
   padding: 5px;
   width: 250px;
@@ -105,6 +125,7 @@
   justify-content: center;
   background-color: black;
   padding: 5px;
+  border-radius: 15px;
 }
 
 #headliner h1 {
@@ -124,7 +145,7 @@
 
 .Wholecontainer {
   border: grey solid 1px;
-  width: 50%;
+  width: 80%;
   margin: auto;
   color: whitesmoke;
   margin-top: 15px;
@@ -151,4 +172,10 @@
 
 .shopcontainer p {
   font-size: 14px;
+}
+
+#desc {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 12px;
 }

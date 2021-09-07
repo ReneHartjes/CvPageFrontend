@@ -18,7 +18,7 @@ export default function Cvpopup({opener}) {
     }
 
     return (
-
+        <div className="bigcontainer">
         <div className="skillcontainer">
 
 
@@ -90,6 +90,6 @@ export default function Cvpopup({opener}) {
 
 
 
-        </div>
+        </div></div>
     )
 }

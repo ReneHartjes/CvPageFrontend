@@ -26,3 +26,12 @@
 .bundle p {
   border-bottom: solid white 2px;
 }
+
+#nuffin {
+  text-align: center;
+  justify-content: center;
+  justify-self: center;
+  background-color: maroon;
+  border: grey 1px solid;
+  padding: 20px;
+}

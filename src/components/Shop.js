@@ -43,7 +43,7 @@ export default function Shop() {
     function click4(){
       
         addadder(adder+1)
-        setpro2(pro2=>[...pro2,{id:4,name:"Antique Relict", Price: 299.95 ,texty: "Some might say this is just a stone: but...",imgsrc: "./images/icoms/python.png"}])
+        setpro2(pro2=>[...pro2,{id:4,name:"Antique Relict", Price: 99.95 ,texty: "Some might say this is just a stone: but...",imgsrc: "./images/icoms/python.png"}])
         console.log(pro2)
        
     }
@@ -64,14 +64,14 @@ export default function Shop() {
     function click7(){
        
         addadder(adder+1)
-        setpro2(pro2=>[...pro2,{id:7,name:"Paperclip", Price: 7.99 ,texty: "If you order three you will get 1 for free"}])
+        setpro2(pro2=>[...pro2,{id:7,name:"Paperclip", Price: 10.99 ,texty: "If you order three you will get 1 for free"}])
         console.log(pro2)
        
     }
     function click8(){
       
         addadder(adder+1)
-        setpro2(pro2=>[...pro2,{id:8,name:"Rubberband", Price: 9.99 ,texty: "Surely does what Rubberbands do"}])
+        setpro2(pro2=>[...pro2,{id:8,name:"Rubberband", Price: 17.99 ,texty: "Surely does what Rubberbands do"}])
         console.log(pro2)
        
     }
@@ -106,28 +106,56 @@ export default function Shop() {
         <div className="shopcontainer">
             <div id="pline1">
             <div id="prod1">
-                    <h3 id="head1">Tomatoes: just yummy</h3>
+                   
                     <img id="img1" src="https://cdnprod.mafretailproxy.com/sys-master-root/h26/h7d/9913197887518/71610_main.jpg_1700Wx1700H"></img>
-                    <p id="desc"> Fresh, Juicy, just 17.99€</p>
-                    <button onClick={click1}>add to cart</button>
+                    <div id="divone">
+                    <h3 id="head1">Tomatoes</h3>
+                    <p id="desc"> Fresh, Juicy, the classics who doesnt dream of these amazing fruits</p>
+                    <div className="pricediv">
+                    
+                    <button onClick={click1}>add to cart</button><label> 17.99€</label>
+                    </div>
+                    </div>
+                    
             </div>
             <div id="prod2">
-                    <h3 id="head2">Shoes with groove[all sizes]</h3>
+                    
                     <img id="img2"  src="https://image.shutterstock.com/image-photo/old-shoes-260nw-284615858.jpg"></img>
-                    <p id="desc"> Unique and minimal wear: 39.99€</p>
-                    <button onClick={click2}>add to cart</button>
+                    <div id="divone">
+                    <h3 id="head1">Shoes</h3>
+                    <p id="desc"> Mint condition: these awesome shoes will carry you for a while, awesome offer</p>
+                    <div className="pricediv">
+                    
+                    <button onClick={click2}>add to cart</button><label> 37.99€</label>
+                    </div>
+                    </div>
             </div>
             <div id="prod3">
-                    <h3 id="head3">Voicetransferdevice</h3>
+                   
                     <img id="img3" src="https://uhrforum.de/attachments/103_1688-jpg.23868/"></img>
-                    <p id="desc"> Outstanding quality for 79.99€</p>
-                    <button onClick={click3}>add to cart</button>
+                    <div id="divone">
+                    <h3 id="head1">Telephonia</h3>
+                    <p id="desc"> Ring ring.. Or not, We really dont promise anything here. Awesome offer!</p>
+                    <div className="pricediv">
+                    
+                    <button onClick={click3}>add to cart</button><label> 79.99€</label>
+                    </div>
+                    </div>
             </div>
+
+
+
             <div id="prod4">
-                    <h3 id="head4">Antique Relict </h3>
+                    
                     <img id="img4" src="https://www.aquasabi.de/media/image/product/19044/lg/back-to-nature-river-stone.jpg"></img>
-                    <p id="desc"> 299.99€ for this fossil</p>
-                    <button onClick={click4}>add to cart</button>
+                    <div id="divone">
+                    <h3 id="head1">Antique Relict</h3>
+                    <p id="desc"> Original Antique natural ceramic which is dated back a long time</p>
+                    <div className="pricediv">
+                    
+                    <button onClick={click4}>add to cart</button><label> 99.95€</label>
+                    </div>
+                    </div>
             </div></div>
 
           
@@ -135,28 +163,52 @@ export default function Shop() {
 
             <div id="pline2">
             <div id="prod5">
-                    <h3 id="head5">Artistic bottle</h3>
-                    <img id="img5" src="https://5.imimg.com/data5/DP/YC/WG/SELLER-12509940/empty-plastic-water-bottle-500x500.jpg"></img>
-                    <p id="desc"> 14.95€ for this Art!</p>
+                   
+                    <img id="img5" src="https://images.immediate.co.uk/production/volatile/sites/4/2018/08/GettyImages-183243429-19b6426.jpg?quality=90&resize=768,574"></img>
+                    <div id="divone">
+                    <h3 id="head1">Thermoplast</h3>
+                    <p id="desc">This outstanding piece of art is a true eye catcher for anyone looking</p>
+                    <div className="pricediv">    
                     <button onClick={click5}>add to cart</button>
+                    <label> 14.95€</label>
+                    </div>
+                    </div>
             </div>
             <div id="prod6">
-                    <h3 id="head6">Natures selection</h3>
+                   
                     <img id="img6" src="https://images.unsplash.com/photo-1615485020471-b66207f5e3bb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3RpY2t8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80"></img>
-                    <p id="desc"> Look might vary, 16.99€</p>
-                    <button onClick={click6}>add to cart</button>
+                    <div id="divone">
+                    <h3 id="head1">Naturalis</h3>
+                    <p id="desc"> Unique multitool for any outdoor newcomer just the best</p>
+                    <div className="pricediv">
+                    
+                    <button onClick={click6}>add to cart</button><label> 16.99€</label>
+                    </div>
+                    </div>
             </div>
             <div id="prod7">
-                    <h3 id="head7">Unique Artpiece</h3>
+                    
                     <img id="img7" src="https://images.freeimages.com/images/large-previews/c4d/paperclip-1426292.jpg"></img>
-                    <p id="desc"> 7.99€ Superdiscount!</p>
-                    <button onClick={click7}>add to cart</button>
+                    <div id="divone">
+                    <h3 id="head1">Paperclip v0.3</h3>
+                    <p id="desc"> The best of the best is still nothing against this outstanding product</p>
+                    <div className="pricediv">
+                    
+                    <button onClick={click7}>add to cart</button><label> 10.99€</label>
+                    </div>
+                    </div>
             </div>
             <div id="prod8">
-                    <h3 id="head8">Vulcanized Polymere</h3>
+                  
                     <img id="img8" src="https://eu.evocdn.io/dealer/1048/content/media/rubberband.jpg"></img>
-                    <p id="desc"> 9.99€ for a lot of joy</p>
-                    <button onClick={click8}>add to cart</button>
+                    <div id="divone">
+                    <h3 id="head1">Universal helper</h3>
+                    <p id="desc"> this vulcanized polymere is save and perfect for anyone to use</p>
+                    <div className="pricediv">
+                    
+                    <button onClick={click8}>add to cart</button><label> 17.99€</label>
+                    </div>
+                    </div>
             </div></div>
         </div></div>
     )

@@ -11,11 +11,6 @@ function Frameforcode() {
 
   
 
-    function dll(){
-
-        console.log("ye")
-
-    }
 
 
  
@@ -28,7 +23,7 @@ function Frameforcode() {
 
             <div className="tops">
                 <h2>The clicked thing</h2>
-                <img src={bg1} className="pc1"></img>
+                <img src="https://www.pngfind.com/pngs/m/256-2562232_github-icon-png-download-github-icon-blue-png.png" className="pc1"></img>
             </div>
                     <p>
 

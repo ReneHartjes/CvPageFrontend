@@ -96,7 +96,7 @@ a {
   color: whitesmoke;
 }
 
-@media (max-width: 450px) {
+@media all and (max-width: 450px) {
   .row1 {
     display: block;
   }
@@ -104,20 +104,10 @@ a {
     display: block;
   }
 
-  .proj1 {
-  }
-
   .proj2 {
     display: none;
   }
   .proj3 {
     display: none;
-  }
-
-  .proj4 {
-  }
-  .proj5 {
-  }
-  .proj6 {
   }
 }

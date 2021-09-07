@@ -123,7 +123,7 @@
   }
 }
 
-@media (min-width: 450) {
+@media all and (min-width: 450) {
   #pipipopo {
     display: none;
   }

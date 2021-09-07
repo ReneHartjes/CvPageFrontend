@@ -66,7 +66,7 @@ export default function Cvpopup({opener}) {
             </div>
             <div className="skill1">	
                 <h4>Graphic Design</h4>
-                <img id="ratingimg" src={fourstars}></img>
+                <img id="ratingimg" src={threehalfstars}></img>
             </div>
                 <div className="skill1">	
                     <h4>3D Printing</h4>
@@ -82,7 +82,11 @@ export default function Cvpopup({opener}) {
                         <h4>TIA portal</h4>
                         <img id="ratingimg" src={fourstars}></img>
                     </div>
-        
+            
+                    <div className="skill1">	
+                        <h4>UX/UI</h4>
+                        <img id="ratingimg" src={threehalfstars}></img>
+                    </div>
                 
 
             </div>

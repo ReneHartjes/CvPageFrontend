@@ -13,24 +13,23 @@
 }
 
 .pic1con {
-  width: 600px;
+  width: 40%;
   height: 400px;
   margin: 10px;
   padding: 20px;
 
-  border-radius: 25px;
   background-image: url("./images/opcbg2.png");
 
   display: flex;
 }
 
 .pic2con {
-  width: 600px;
+  width: 40%;
+
   height: 400px;
   margin: 10px;
   padding: 20px;
 
-  border-radius: 25px;
   background-image: url("./images/opcbg2.png");
   display: flex;
 }
@@ -116,7 +115,7 @@
   border-bottom: 1px solid rgb(95, 94, 94);
 }
 
-@media (max-width: 450px) {
+@media all and (max-width: 450px) {
   .services {
     display: none;
   }

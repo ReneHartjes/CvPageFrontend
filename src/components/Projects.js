@@ -50,28 +50,41 @@ function Projects() {
         </div> </Link>   
         </div>   
       <div className="row2">
+
+
+      <Link to="/iclogger">
       <div className="proj4">
             <div>
             <h2>PYTHON/ARDUINO Voice-Recognition controlled LED-panel</h2>
             <img src={pc1} className="inbimg"></img> <img src={ard} className="inbimgcv" ></img>
             <p>This amazing Project including Google-Speechrecognition in Python and/or the Pocketsphinx-Library(Online/Offline), Py-Serial-Library my loved Arduino-uno and a my good old Circuitboard made me communicate to my PC what color Id love to see <a href="/mcbot"> ..See more</a> </p></div>
             
-        </div> 
+        </div> </Link>
 
+
+
+        <Link to="/iclogger">   
         <div className="proj5">
            
         <h2>PYTHON Anti AFK script</h2>
         <img src={pc1} className="inbimg" ></img>
             <p>This little script is used maily in Minecraft to avoid the Afk-kick by pressing with the Help of PYAUTOGUI different Keys-strokes after a random amount of time</p>
            
-        </div> 
+        </div>  </Link>
 
+
+
+
+
+        <Link to="/iclogger">
         <div className="proj6">
         <h2>PYTHON Minecraft Crate-picker</h2>
         <img src={pc1} className="inbimg"></img> <img src={ocv} className="inbimgcv"></img>
             <p>This is a little project made in Python which includes OpenCV-imageprocessing and Helps me to organize my Crates in Minecraft. Including a GUI made with TKinter and usage of a few further Python libraries <a href="/mcbot"> ..See more</a></p>
            
         </div> 
+
+        </Link>
           </div>
       
       </div>

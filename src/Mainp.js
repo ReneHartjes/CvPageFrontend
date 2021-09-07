@@ -19,7 +19,7 @@ function Mainp() {
     <Banner />
     
     <Body />
-    <Services />
+    <Services className="servicescl" />
     <ActualCV />
     <Shop></Shop>
     <Comments></Comments>

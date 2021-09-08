@@ -1,0 +1,18 @@
+.welcomec {
+  display: flex;
+  justify-content: center;
+}
+
+#groß {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#headlineslider {
+  text-align: center;
+
+  margin-top: 10px;
+  padding: 5px;
+  color: whitesmoke;
+}

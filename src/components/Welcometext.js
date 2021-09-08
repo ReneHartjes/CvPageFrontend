@@ -1,7 +1,8 @@
 
 import "./Welcometext.css"
-
-import {UseState} from 'react'
+import Slider from "./Slider";
+import {useState} from 'react'
+import Sliderthing from "./Sliderthing";
 
 
 function Welcometext() {
@@ -9,16 +10,20 @@ function Welcometext() {
 
   
   
+  const [nrstate, setnrstate] = useState("1")
 
 
+  
+
+    
  
     return (
-      <div className="wcmsg">
-          <div className="wctxt">
-            <h1>Welcome to my page</h1>
-            <p>this is a CV page for Webdevelopment</p></div>
-      </div>
-      
+      <>
+      <h2 id="headlineslider">My Graphic-design Merch Business</h2>
+      <Slider changestate={nrstate => setnrstate(nrstate)}></Slider>
+      <Sliderthing stater={nrstate} />
+     
+      </>
     );
   }
   

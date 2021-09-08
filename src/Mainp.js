@@ -9,6 +9,8 @@ import Comments from "./components/Comments";
 import Shop from "./components/Shop";
 import CommentOP from "./components/CommentOP";
 import ActualCV from "./components/Projectsides/ActualCV";
+import Slider from "./components/Slider";
+
 import "./index.css"
 import {BrowserRouter, Switch, Route} from "react-router-dom"
 
@@ -17,10 +19,11 @@ function Mainp() {
     <div className="Mainp">
   
     <Banner />
-    
+    <Welcometext />
     <Body />
     <Services className="servicescl" />
     <ActualCV />
+    
     <Shop></Shop>
     <Comments></Comments>
     <News />

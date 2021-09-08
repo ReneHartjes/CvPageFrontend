@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sliderei {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+#kleiner {
+  width: 150px;
+  padding: 5px;
+  background-image: url("./images/opcbg2.png");
+  background-size: cover;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.sliderei img {
+  width: 400px;
+  background-image: url("./images/opcbg2.png");
+  border-radius: 25px;
+  background-size: cover;
+  margin: 5px;
+}
+
+.leftb {
+  background-image: url("./images/Rating/Arrowl.png");
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  background-color: #28313b;
+  opacity: 0.9;
+  border: 1px #28313b solid;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.rightb {
+  background-image: url("./images/Rating/Arrowr.png");
+  width: 80px;
+  opacity: 0.9;
+  height: 80px;
+  background-size: cover;
+  background-color: #28313b;
+  margin-left: 30px;
+  border-radius: 50%;
+  border: 1px #28313b solid;
+}
+
+.rightb:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.leftb:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.sliderclass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliderclass button {
+  margin: 5px;
+  width: 26px;
+  height: 26px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+#theone {
+  background-color: rgb(17, 14, 14);
+}
+
+#hvimg:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 450px) {
+  #kleiner {
+    display: none;
+  }
+
+  .rightb {
+    margin-left: -60px;
+    margin-top: 65px;
+  }
+
+  .leftb {
+    margin-right: -60px;
+    margin-top: 65px;
+  }
+}

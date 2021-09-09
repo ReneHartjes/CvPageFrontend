@@ -28,7 +28,7 @@ export default function Shop() {
     function click2(){
     
         addadder(adder+1)
-        setpro2(pro2=>[...pro2,{id:2,name:"Schuhe", Price: 39.99 ,texty: "This Shoes will help in no way!", imgsrc: "./images/icoms/python.png"}])
+        setpro2(pro2=>[...pro2,{id:2,name:"Schuhe", Price: 39.99 ,texty: "This Shoes will help in no way!", imgsrc: "'./images/icoms/python.png'"}])
         console.log(pro2)
        
     }
@@ -36,7 +36,7 @@ export default function Shop() {
     function click3(){
       
         addadder(adder+1)
-        setpro2(pro2=>[...pro2,{id:3,name:"Besseres Telefon", Price: 79.99 ,texty: "This will make you smile!", imgsrc: "./images/icoms/python.png"}])
+        setpro2(pro2=>[...pro2,{id:3,name:"Besseres Telefon", Price: 79.99 ,texty: "This will make you smile!", imgsrc: {picture1}}])
         console.log(pro2)
        
     }

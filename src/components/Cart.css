@@ -24,7 +24,6 @@
 }
 
 .bundle p {
-  border-bottom: solid white 2px;
 }
 
 #nuffin {
@@ -34,4 +33,9 @@
   background-color: maroon;
   border: grey 1px solid;
   padding: 20px;
+}
+
+#pcc {
+  width: 100px;
+  height: 100px;
 }

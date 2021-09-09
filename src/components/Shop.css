@@ -7,6 +7,7 @@
   text-align: center;
   background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v462-n-130-textureidea_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9465282a2b0a375f4f5b120d7bbad882");
   background-repeat: no-repeat;
+
   background-size: cover;
 }
 @media (max-width: 550px) {
@@ -154,6 +155,7 @@
 .Wholecontainer {
   border: grey solid 1px;
   width: 80%;
+  max-width: 1000px;
   margin: auto;
   color: whitesmoke;
   margin-top: 15px;

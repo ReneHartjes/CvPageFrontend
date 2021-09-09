@@ -19,14 +19,15 @@ function Mainp() {
     <div className="Mainp">
   
     <Banner />
-    <Welcometext />
+    
     <Body />
+    <Welcometext />
     <Services className="servicescl" />
     <ActualCV />
     
-    <Shop></Shop>
-    <Comments></Comments>
-    <News />
+    
+    
+    
 
     <Footer />
 

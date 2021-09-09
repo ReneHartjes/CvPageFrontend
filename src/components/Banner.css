@@ -1,148 +1,150 @@
-* {
-  margin: 0;
-  padding: 0;
+.bannercontainer {
+  display: flex;
+
+  position: relative;
+  width: 100%;
+  height: 590px;
+  background-image: linear-gradient(to right, #28313b, #485461);
+  opacity: 0.95;
+  overflow: hidden;
+  font-size: 18px;
+  z-index: 2;
 }
 
-.container {
+#videoclass {
+  position: absolute;
+  min-width: 100%;
+  z-index: -1;
+}
+
+#videoclass video {
   width: 100%;
-  height: 690px;
-  background-color: black;
-  background-image: url("./images/beachbg.jpg");
-  display: block;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-bottom: rgb(37, 36, 36) solid 5px;
-  background-position: center;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+}
+
+.navnav ul {
+  display: flex;
+  text-decoration: none;
+}
+
+#weirdo {
+  margin-left: 6px;
+}
+
+.navnav ul li {
+  list-style: none;
+  margin: 10px;
+  float: left;
+  width: 100px;
+}
+
+.navnav ul li ul {
+  flex-direction: column;
+}
+
+.navnav ul li:hover ul li {
+  display: flex;
+
+  margin-left: -67px;
+  position: relative;
+
+  max-inline-size: 60px;
+}
+
+.navnav ul li ul li {
+  display: none;
+}
+
+.navnav > ul > li > a {
+  align-items: initial;
   opacity: 1;
+  float: left;
+}
+
+ul li:hover #shnu li {
+  display: flex;
+
+  margin-left: -48px;
+  position: relative;
+
+  max-inline-size: 60px;
 }
 
 .welcomecontainer {
   display: flex;
-  justify-content: baseline;
-  justify-self: baseline;
+  align-items: center;
+  justify-self: center;
+  position: absolute;
+  z-index: 10;
+  background-image: url("./images/opcbg3.png");
   width: 100%;
-
-  background-position-y: 40%;
-  overflow: hidden;
+  margin: auto;
+  top: 70%;
+  opacity: 0.8;
 }
 
 .welcometxt {
   width: 100%;
-  height: 110px;
+
   padding: 15px;
   color: white;
-  background-image: url("./images/opcbg3.png");
+
   text-shadow: 2px 2px 3px grey;
   border-radius: 15px;
-
   text-align: center;
-  margin: auto;
-
-  opacity: 0.9;
 }
 
-.welcometxt p {
-  padding: 3px;
-}
-
-/*             Navbar includet        */
-
-.mainnav > ul {
-  display: inline;
-  padding: 10px;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.mainnav > ul > li > ul > li {
-  display: none;
-}
-
-.mainnav ul li:hover ul li {
-  display: block;
-  justify-self: start;
-  margin: 5px;
-  position: relative;
-  left: -80px;
-  max-inline-size: 40px;
-  transition: 1s;
-}
-
-.mainnav ul li:hover #shnu li {
-  display: block;
-  justify-self: start;
-  margin: 5px;
-  position: relative;
-  left: -60px;
-  max-inline-size: 40px;
-  transition: 1s;
-}
-
-.mainnav > ul > li {
-  align-items: initial;
-  display: inline-flex;
-  margin: 10px;
-  float: left;
-}
-
-#pops {
-  display: none;
-}
-.mainnav {
-  overflow: hidden;
-}
-.ept {
-  width: 100%;
-  height: 420px;
-  margin-top: 100px;
-}
-
-.mainnav a:hover {
-  opacity: 0.5;
-}
-
-#thealt {
+#themenu {
   display: none;
 }
 
 @media (max-width: 450px) {
-  .mainnav ul {
+  .navnav ul li {
     display: none;
   }
 
-  #thealt {
-    display: flex;
-    justify-content: center;
-  }
-  .welcometxt {
-    margin-top: -200px;
+  .bannercontainer {
+    height: 300px;
   }
 
-  .container {
-    height: 350px;
-  }
-}
-
-@media all and (min-width: 450) {
-  #pipipopo {
+  .welcomecontainer {
     display: none;
   }
 }
 
-.clickbtn {
-  width: 100%;
-  background-color: maroon;
-  color: white;
-  margin: 2px;
-  padding: 7px;
-  opacity: 0.8;
+@media (max-width: 750px) {
+  .navnav ul li {
+    display: none;
+  }
+  #themenu {
+    display: block;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: brown;
+    margin: auto;
+    margin-top: 15px;
+    opacity: 0.8;
+    font-size: 18px;
+    color: white;
+  }
+
+  .bannercontainer {
+    height: 300px;
+  }
+
+  .welcomecontainer {
+    display: none;
+  }
 }
 
-#triggerbtn {
+#pipipopo button {
   width: 100%;
-  background-color: maroon;
-  box-shadow: 2px 2px black;
-  padding: 15px;
+  height: 50px;
+  margin: 1px;
   color: white;
-  font-size: 22px;
+  font-size: 18px;
+  background-color: brown;
 }

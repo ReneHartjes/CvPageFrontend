@@ -32,6 +32,8 @@
   box-shadow: 3px 3px black;
 }
 
+.mainnav video {
+}
 .pic1con :hover {
   opacity: 0.6;
 }

@@ -1,36 +1,82 @@
-.longp {
-  width: 40%;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.longp1 {
+  width: 350px;
   margin: auto;
-  height: 400px;
+
   text-align: center;
-  justify-content: center;
+  margin-top: 15px;
+  font-size: 18px;
+  border: 1px solid grey;
+  padding: 5px;
   color: aliceblue;
+}
+.longp {
+  margin-top: 25px;
+  width: 350px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  color: aliceblue;
+  border-bottom: 1px solid grey;
 }
 
 .pc1 {
   width: 400px;
   height: auto;
-  border-radius: 50%;
+  border-radius: 12px;
 }
 .theparas {
-  display: flex;
-  width: 900px;
+  color: white;
+  display: block;
+  width: 350px;
+  margin-top: 15px;
   justify-content: center;
   text-align: center;
   margin: auto;
 }
+
+.theparas h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.thepara1 h2 {
+  color: aliceblue;
+  margin-bottom: 15px;
+}
 .child1 {
-  display: flexbox;
+  display: block;
   margin-top: 50px;
+  width: 50%;
+  min-width: 450px;
+  margin: auto;
+  background-image: url("../images/opcbg2.png");
   justify-content: center;
   align-self: center;
   text-align: center;
+  background-size: cover;
 }
 
 .thepara1 {
-  display: flexbox;
+  display: block;
   width: 400px;
   justify-content: center;
+
   text-align: center;
   margin: auto;
+}
+
+.gitclass h4 {
+  margin-top: 10px;
+  color: whitesmoke;
+}
+
+.gitclass img {
+  width: 150px;
+  padding: 10px;
 }

@@ -2,12 +2,12 @@
 import "./Projectmcbot.css"
 import {UseState} from 'react'
 import bg12 from "../images/Rating/githubber.png"
-import bg22 from "../images/mcbot.png"
+import bg22 from '../images/afkbot.png'
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 
 
-function Projectmcbot() {
+function Projectafkbot() {
 
 
   
@@ -27,30 +27,29 @@ function Projectmcbot() {
                 
         <div className="child1">
             <div className="thepara1">
-            <h2>Minecraft Box-Picker </h2>
+            <h2> Anti-AFK-Bot Python</h2>
             <img src={bg22} className="pc1"></img>
 
             
             
-            <p className="longp1"> this is the GUI of my Game-Bot-Project where my full boxes get emptied whilest I do something else in this time. My script takes a Screenshot and analizes if there are any Matches above a certain treshhold-propability with a Pre-given Picture-part if so my mouse Moves to the Position on the screen and clicks. </p>
+            <p className="longp1"> Little GUI-script which can be activated to trick the Anti-afk Systems of servers and simulate On-Keyboard behaviour in a randomly spaced keystroke pattern </p>
             <h3></h3>
             </div>
             
             <div className="theparas">
             <h3>Python libraries</h3>
             <p className="longp">
-            OpenCV,
-            Pyautogui,
             Tkinter,
+            Pyautogui,
             Time, 
-            Numpy,</p>
+            Keyboard,</p>
 
            
             </div>
 
             <div className="gitclass">
               <h4> Code on Github: </h4>
-            <a href="https://github.com/ReneHartjes/BoxpickerPython/blob/main/main.py">
+            <a href="https://github.com/ReneHartjes/Minecraft-Anti-AFK-with-GUI/blob/main/main.py">
                 <img src={bg12}></img> </a>
 
             </div>
@@ -67,4 +66,4 @@ function Projectmcbot() {
   
 
 
-  export default Projectmcbot;
+  export default Projectafkbot;

@@ -21,16 +21,16 @@ function Projects() {
       <div className="pj">
           <div className="Hero1"> 
 
-          <Link to="/">
+          <Link to="/voicetotext">
         <div className="proj1">
             <div>
-            <h2>Project1</h2>
+            <h2>Speech Recognition, voice to text recorder(German)</h2>
             <img src={pc1} className="inbimg"></img>
-            <p>Thankful that I stumbled upon your channel! Your videos are exactly what I need. So far you and Mosh are the best teachers of programming world :D, Of course, I'll subscribe to your channel and will definitely browse at your videos. I'm pretty sure I'll learn a lot from you as you teach very well and not boring. *Still thankful to all teachers though for continuing posting tutorial videos.</p></div>
+            <p>This amazing little tool helps to a certain degree to bring Spoken text into printed words.</p></div>
             
         </div> </Link>
 
-        <Link to="/">   
+        <Link to="/arduinothings">   
         <div className="proj2">
            
         <h2>PYTHON/ARDUINO Bluetooth controlled Steppermotor</h2>
@@ -52,7 +52,7 @@ function Projects() {
       <div className="row2">
 
 
-      <Link to="/iclogger">
+      <Link to="/voicerec">
       <div className="proj4">
             <div>
             <h2>PYTHON/ARDUINO Voice-Recognition controlled LED-panel</h2>
@@ -63,7 +63,7 @@ function Projects() {
 
 
 
-        <Link to="/iclogger">   
+        <Link to="/antiafk">   
         <div className="proj5">
            
         <h2>PYTHON Anti AFK script</h2>
@@ -76,7 +76,7 @@ function Projects() {
 
 
 
-        <Link to="/iclogger">
+        <Link to="/mcbot">
         <div className="proj6">
         <h2>PYTHON Minecraft Crate-picker</h2>
         <img src={pc1} className="inbimg"></img> <img src={ocv} className="inbimgcv"></img>

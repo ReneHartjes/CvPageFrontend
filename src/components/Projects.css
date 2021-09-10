@@ -91,6 +91,37 @@
   color: aliceblue;
 }
 
+.proj1:hover {
+  width: 450px;
+  transition: 1s;
+  height: 500px;
+}
+
+.proj2:hover {
+  width: 450px;
+  transition: 1s;
+  height: 500px;
+}
+.proj3:hover {
+  width: 450px;
+  transition: 1s;
+  height: 500px;
+}
+.proj4:hover {
+  width: 450px;
+  transition: 1s;
+  height: 500px;
+}
+.proj5:hover {
+  width: 450px;
+  height: 500px;
+  transition: 1s;
+}
+.proj6:hover {
+  width: 450px;
+  height: 500px;
+  transition: 1s;
+}
 a {
   text-decoration: none;
   color: whitesmoke;

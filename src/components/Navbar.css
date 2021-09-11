@@ -13,34 +13,39 @@
   display: block;
   justify-self: start;
   margin: 5px;
+
   max-inline-size: 40px;
   position: relative;
-  left: -60px;
+  left: -70px;
   transition: 1s;
 }
 
 .mainnav2 ul li:hover #beep li {
   transition: 1s;
+
   display: block;
   justify-self: start;
   margin: 5px;
   max-inline-size: 40px;
   position: relative;
-  left: -45px;
+  left: -40px;
 }
 
 .mainnav2 > ul > li {
   align-items: initial;
   display: inline-flex;
   margin: 10px;
-  float: left;
+  width: 80px;
+  font-size: 18px;
+  justify-content: flex-start;
 }
 
 #pops {
   display: none;
 }
 .mainnav2 {
-  overflow: hidden;
+  width: 500px;
+  height: 200px;
 }
 .ept {
   width: 100%;

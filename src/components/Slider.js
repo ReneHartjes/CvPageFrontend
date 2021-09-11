@@ -16,24 +16,30 @@ export default function Slider(props) {
 
 
 const [nrstate, setnrstate] = useState(1)
-
+const [wobble, setwobble] = useState(0)
 
 
     
 
     function clicksy1(){
+       
 
         setnrstate(1)
         props.changestate(1)
+        setwobble(1)
+        
     }
 
     
     function clicksy2(){
-
+       
+        setwobble(1)
+        console.log(wobble)
         setnrstate(2)
         props.changestate(2)
     }
     function clicksy3(){
+        
 
         setnrstate(3)
         props.changestate(3)
@@ -41,11 +47,13 @@ const [nrstate, setnrstate] = useState(1)
 
     
     function clicksy4(){
+       
 
         setnrstate(4)
         props.changestate(4)
     }
     function clicksy5(){
+       
 
         setnrstate(5)
         props.changestate(5)
@@ -58,42 +66,46 @@ const [nrstate, setnrstate] = useState(1)
             if(nrstate >=5){
                 setnrstate(nrstate = 1)
             }
+           
+
         return(
             
             <div className="sliderei">
                 <button className="leftb" onClick={clicksy5}> -</button>
                 <img id="kleiner" src={pic5}></img>
-                <Link to="/graphicdesign"><img src={pic1} id="hvimg"></img></Link>
+                <Link to="/graphicdesign"><img src={pic1} id="hvimg1"></img></Link>
                 <img id="kleiner" src={pic2}></img>
                 <button className="rightb" onClick={clicksy2}> -</button>
             </div>
         )
     }
     if(nrstate==2){
-
+            
         if(nrstate >=5){
             setnrstate(nrstate = 1)
         }
+       
     return(
         <div className="sliderei">
             <button className="leftb" onClick={clicksy1}> </button>
             <img id="kleiner" src={pic1}></img>
-            <Link to="/graphicdesign"><img src={pic2} id="hvimg"></img></Link>
+            <Link to="/graphicdesign"><img src={pic2} id="hvimg1"></img></Link>
             <img id="kleiner" src={pic3}></img>
             <button className="rightb" onClick={clicksy3}> </button>
         </div>
     )
     }
     if(nrstate==3){
-
+        
         if(nrstate >=5){
             setnrstate(nrstate = 1)
         }
+        
     return(
         <div className="sliderei">
             <button className="leftb" onClick={clicksy2}> </button>
             <img id="kleiner" src={pic2}></img>
-            <Link to="/graphicdesign"><img src={pic3} id="hvimg"></img></Link>
+            <Link to="/graphicdesign"><img src={pic3} id="hvimg1"></img></Link>
             <img id="kleiner" src={pic4}></img>
             <button className="rightb" onClick={clicksy4}> </button>
         </div>
@@ -108,7 +120,7 @@ const [nrstate, setnrstate] = useState(1)
         <div className="sliderei">
             <button className="leftb" onClick={clicksy3}> </button>
             <img id="kleiner" src={pic3}></img>
-            <Link to="/graphicdesign"><img src={pic4} id="hvimg"></img></Link>
+            <Link to="/graphicdesign"><img src={pic4} id="hvimg1"></img></Link>
             <img id="kleiner" src={pic5}></img>
             <button className="rightb" onClick={clicksy5}> </button>
         </div>
@@ -123,7 +135,7 @@ const [nrstate, setnrstate] = useState(1)
         <div className="sliderei">
             <button className="leftb" onClick={clicksy4}> </button>
             <img id="kleiner" src={pic4}></img>
-            <Link to="/graphicdesign"><img src={pic5} id="hvimg"></img></Link>
+            <Link to="/graphicdesign"><img src={pic5} id="hvimg1"></img></Link>
             <img id="kleiner" src={pic1}></img>
             <button className="rightb" onClick={clicksy1}> </button>
         </div>

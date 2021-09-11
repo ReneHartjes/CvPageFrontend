@@ -127,6 +127,11 @@ a {
   color: whitesmoke;
 }
 
+.row1 {
+  display: flex;
+  justify-content: center;
+}
+
 @media all and (max-width: 450px) {
   .row1 {
     display: block;
@@ -141,4 +146,8 @@ a {
   .proj3 {
     display: none;
   }
+}
+
+.pj {
+  z-index: 10;
 }

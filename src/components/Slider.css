@@ -82,6 +82,28 @@
 #hvimg:hover {
   opacity: 0.6;
 }
+@keyframes pew {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#hvimg1[wobble="1"] {
+  animation-name: pew;
+  animation-duration: 1s;
+  animation-iteration-count: initial;
+}
 
 @media (max-width: 450px) {
   #kleiner {

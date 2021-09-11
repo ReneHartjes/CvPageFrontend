@@ -7,7 +7,7 @@ import Logo from "./images/Logo.png"
 
 
 function Navbar() {
-    return (
+    return (<>
 <div className="mainnav2">
           <div className="btnnav">
         <Link to="/"> <button >Home</button></Link>
@@ -47,8 +47,10 @@ function Navbar() {
        
         
     </div>
-      
-   
+      <div id="emptyclass">
+        <p>.</p>
+      </div>
+   </>
     );
   }
   

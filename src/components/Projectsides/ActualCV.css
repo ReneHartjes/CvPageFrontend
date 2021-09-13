@@ -1,9 +1,11 @@
 #opener {
   width: 200px;
   color: whitesmoke;
-  background-color: maroon;
+  background-color: brown;
   box-shadow: 2px 2px 1px black;
   height: 80px;
+  border-radius: 15px;
+  margin-top: 5px;
 }
 
 .cvcontainer {

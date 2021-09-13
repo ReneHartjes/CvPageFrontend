@@ -7,6 +7,7 @@
   border-radius: 15px;
   border: maroon 5px solid;
   box-shadow: black 1px 1px 1px;
+  opacity: 0.9;
 }
 
 .skillcontainer h3 {

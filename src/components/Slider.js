@@ -27,22 +27,30 @@ const [wobble, setwobble] = useState(0)
         setnrstate(1)
         props.changestate(1)
         setwobble(1)
+        const c= document.getElementById("hvimg1")
+        c.style= "animation: linear 1s pew;"
+       
+     
         
     }
 
     
     function clicksy2(){
        
-        setwobble(1)
+        setwobble(0)
         console.log(wobble)
         setnrstate(2)
         props.changestate(2)
+        const c= document.getElementById("hvimg1")
+        c.style= "animation:  linear 1s pew1;"
     }
     function clicksy3(){
         
 
         setnrstate(3)
         props.changestate(3)
+        const c= document.getElementById("hvimg1")
+        c.style= "animation:  linear 1s pew;"
     }
 
     
@@ -51,12 +59,16 @@ const [wobble, setwobble] = useState(0)
 
         setnrstate(4)
         props.changestate(4)
+        const c= document.getElementById("hvimg1")
+        c.style= "animation: linear 1s pew1;"
     }
     function clicksy5(){
        
 
         setnrstate(5)
         props.changestate(5)
+        const c= document.getElementById("hvimg1")
+        c.style= "animation: linear 1s pew2;"
     }
 
     

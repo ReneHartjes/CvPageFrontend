@@ -23,8 +23,8 @@ function Mainp() {
     <Body />
     <Welcometext />
     <Services className="servicescl" />
-    <ActualCV />
     
+    <News />
     
     
     

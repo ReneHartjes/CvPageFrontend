@@ -65,8 +65,8 @@ function Banner() {
             
         <ul id="shnu">
          <br></br>
-         <li><Link to="/">CV</Link></li>
-         <li><Link to="/projects"><a href="">Contact</a></Link></li>
+         <li><Link to="/cvpage">CV</Link></li>
+         <li><Link to="/cvpage"><a href="">Contact</a></Link></li>
       
        </ul>
         

@@ -19,6 +19,7 @@ import ProjectVoiceC from "./components/Projectsides/ProjectVoiceC";
 import Projectafkbot from "./components/Projectsides/Projectafkbot";
 import ProjectStepper from "./components/Projectsides/ProjectStepper";
 import MyCVpage from "./components/MyCVpage";
+import Searchbar from "./components/Searchbar";
 function App() {
   return (
     <div className="App">
@@ -41,6 +42,7 @@ function App() {
       <Route path ="/antiafk" component={Projectafkbot} ></Route>
       <Route path ="/arduinothings" component={ProjectStepper} ></Route>
       <Route path ="/cvpage" component={MyCVpage} ></Route>
+      <Route path ="/search" component={Searchbar} ></Route>
 
       <Route path ="/voicetotext" component={ProjectVoiceToText} ></Route>
 

@@ -82,7 +82,7 @@ export default function MyCVpage() {
 
             <div className="cvtxtsub3rechts">
                 <h3> Github: </h3>
-            <a href="https://www.teepublic.com/user/grimbo24"><img src={gth} className="picturelink"></img></a>
+            <a href="https://github.com/ReneHartjes"><img src={gth} className="picturelink"></img></a>
             
 
                 </div>

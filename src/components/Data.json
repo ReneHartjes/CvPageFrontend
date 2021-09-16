@@ -1,0 +1,89 @@
+[
+   
+
+    {
+        "author": "My cool CV page",
+        "country": "Nigeria",
+        "imageLink": "images/things-fall-apart.jpg",
+        "language": "English",
+        "link": "/cvpage",
+        "pages": 209,
+        "title": "Cvpage",
+        "year": 1958
+      },
+
+
+
+      {
+        "author": "All of my Projects",
+        "country": "Germany",
+        "imageLink": "images/things-fall-apart.jpg",
+        "language": "English",
+        "link": "/projects",
+        "pages": 3,
+        "title": "Projects",
+        "year": 1958
+      },
+      {
+        "author": "My Python projects",
+        "country": "Nigeria",
+        "imageLink": "images/things-fall-apart.jpg",
+        "language": "English",
+        "link": "/projects",
+        "pages": 2,
+        "title": "Python",
+        "year": 1958
+      },
+      {
+        "author": "My graphic design Page",
+        "country": "Nigeria",
+        "imageLink": "images/things-fall-apart.jpg",
+        "language": "English",
+        "link": "/graphicdesign",
+        "pages": 209,
+        "title": "Spreadshirt",
+        "year": 1958
+      },
+      {
+        "author": "My graphic design section",
+        "country": "Nigeria",
+        "imageLink": "images/things-fall-apart.jpg",
+        "language": "English",
+        "link": "/graphicdesign",
+        "pages": 209,
+        "title": "Graphicdesign",
+        "year": 1958
+      },
+      {
+        "author": "Projects",
+        "country": "Nigeria",
+        "imageLink": "images/things-fall-apart.jpg",
+        "language": "English",
+        "link": "/projects",
+        "pages": 209,
+        "title": "Projects",
+        "year": 1958
+      },
+      {
+        "author": "with python and OpenCV",
+        "country": "Nigeria",
+        "imageLink": "images/things-fall-apart.jpg",
+        "language": "English",
+        "link": "/iclogger",
+        "pages": 209,
+        "title": "Incognitologger",
+        "year": 1958
+      },
+      {
+        "author": "Awesome project with Arduino und Python",
+        "country": "Nigeria",
+        "imageLink": "images/things-fall-apart.jpg",
+        "language": "English",
+        "link": "/voicerec",
+        "pages": 209,
+        "title": "Voice Control",
+        "year": 1958
+      }
+
+
+]

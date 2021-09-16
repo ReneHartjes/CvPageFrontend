@@ -10,9 +10,10 @@ import Shop from "./components/Shop";
 import CommentOP from "./components/CommentOP";
 import ActualCV from "./components/Projectsides/ActualCV";
 import Slider from "./components/Slider";
-
+import data from './components/Data.json'
 import "./index.css"
 import {BrowserRouter, Switch, Route} from "react-router-dom"
+import SearchBar from "./components/Searchbar";
 
 function Mainp() {
   return (
@@ -27,7 +28,7 @@ function Mainp() {
     <News />
     
     
-    
+    <SearchBar data={data} />
 
     <Footer />
 

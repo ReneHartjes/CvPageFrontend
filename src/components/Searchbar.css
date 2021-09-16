@@ -1,0 +1,87 @@
+.search {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 55px;
+}
+
+#lupe {
+  background-image: url("./images/Rating/Lupe.png");
+  background-color: none;
+  width: 35px;
+  height: 35px;
+  margin-left: 25px;
+  align-self: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+#clearBtn {
+  background-image: url("./images/Rating/close.png");
+  background-color: none;
+  width: 35px;
+  height: 35px;
+  margin-left: 25px;
+  align-self: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.search input {
+  position: relative;
+
+  left: 20px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.searchInputs {
+  padding-top: 10px;
+  width: 300px;
+  display: flex;
+  border-radius: 15px;
+  background-color: none;
+}
+
+.dataResult {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 150px;
+  flex-direction: column;
+  height: auto;
+  padding-bottom: 25px;
+}
+
+.dataItem {
+  position: flex;
+  width: 200px;
+  justify-content: center;
+
+  flex-direction: column;
+  float: left;
+  z-index: 1;
+  border: 1px solid grey;
+  padding: 5px;
+  margin-top: 3px;
+  border-radius: 3px;
+  color: black;
+  background-color: whitesmoke;
+}
+
+.dataItem h4 {
+  border-bottom: 1px solid grey;
+  background-color: teal;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 3px;
+  margin-bottom: 3px;
+}
+
+.opstuff {
+  display: flex;
+  justify-content: center;
+}

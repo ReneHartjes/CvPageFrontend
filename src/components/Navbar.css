@@ -12,7 +12,8 @@
 .mainnav2 ul li:hover ul li {
   display: block;
   justify-self: start;
-  margin: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 
   max-inline-size: 40px;
   position: relative;
@@ -25,10 +26,12 @@
 
   display: block;
   justify-self: start;
-  margin: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+
   max-inline-size: 40px;
   position: relative;
-  left: -40px;
+  left: -52px;
 }
 
 .mainnav2 > ul > li {

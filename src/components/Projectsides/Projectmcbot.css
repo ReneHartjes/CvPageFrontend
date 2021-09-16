@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+html {
+  background-image: linear-gradient(to right, #28313b, #485461);
+}
 .longp1 {
   width: 350px;
   margin: auto;
@@ -48,9 +50,12 @@
 .thepara1 h2 {
   color: aliceblue;
   margin-bottom: 15px;
+  padding: 10px;
+  margin-top: 15px;
 }
 .child1 {
   display: block;
+  padding-top: 10px;
   margin-top: 50px;
   width: 50%;
   min-width: 450px;
@@ -60,6 +65,7 @@
   align-self: center;
   text-align: center;
   background-size: cover;
+  border-radius: 25px;
 }
 
 .thepara1 {
@@ -79,4 +85,8 @@
 .gitclass img {
   width: 150px;
   padding: 10px;
+}
+
+.Hero {
+  height: 100%;
 }

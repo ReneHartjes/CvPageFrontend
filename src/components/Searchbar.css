@@ -56,24 +56,27 @@
 
 .dataItem {
   position: flex;
-  width: 200px;
+  width: 300px;
   justify-content: center;
-
+  text-align: center;
   flex-direction: column;
   float: left;
   z-index: 1;
-  border: 1px solid grey;
+  border: 1px solid black;
+  box-shadow: 2px 2px #333;
   padding: 5px;
-  margin-top: 3px;
+  margin-top: 5px;
   border-radius: 3px;
-  color: black;
-  background-color: whitesmoke;
+  color: whitesmoke;
+  opacity: 0.8;
+  background-image: linear-gradient(to right, #28313b, #485461);
 }
 
 .dataItem h4 {
-  border-bottom: 1px solid grey;
-  background-color: teal;
-  color: white;
+  border-bottom: 3px solid grey;
+  background-color: white;
+
+  color: black;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -81,6 +84,10 @@
   margin-bottom: 3px;
 }
 
+.dataItem p {
+  padding: 10px;
+  font-size: 16px;
+}
 .opstuff {
   display: flex;
   justify-content: center;

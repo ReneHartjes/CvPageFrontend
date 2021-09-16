@@ -2,7 +2,7 @@
    
 
     {
-        "author": "My cool CV page",
+        "author": "My CV page",
         "country": "Nigeria",
         "imageLink": "images/things-fall-apart.jpg",
         "language": "English",
@@ -15,7 +15,7 @@
 
 
       {
-        "author": "All of my Projects",
+        "author": "a few of my Projects",
         "country": "Germany",
         "imageLink": "images/things-fall-apart.jpg",
         "language": "English",
@@ -35,7 +35,7 @@
         "year": 1958
       },
       {
-        "author": "My graphic design Page",
+        "author": "merch Overview page",
         "country": "Nigeria",
         "imageLink": "images/things-fall-apart.jpg",
         "language": "English",
@@ -55,13 +55,16 @@
         "year": 1958
       },
       {
-        "author": "Projects",
+        "author": "Python, OpenCV project with GUI",
         "country": "Nigeria",
         "imageLink": "images/things-fall-apart.jpg",
         "language": "English",
-        "link": "/projects",
+        "link": "/mcbot",
         "pages": 209,
-        "title": "Projects",
+        "title": "Minecraft bot"  ,
+        
+     
+       
         "year": 1958
       },
       {
@@ -82,6 +85,40 @@
         "link": "/voicerec",
         "pages": 209,
         "title": "Voice Control",
+        "year": 1958
+      }
+      ,
+      {
+        "author": "Backend only on GIT, FetchAPI just local",
+        "country": "Nigeria",
+        "imageLink": "images/things-fall-apart.jpg",
+        "language": "English",
+        "link": "/comments",
+        "pages": 209,
+        "title": "Comments",
+        "year": 1958
+      }
+      ,
+      {
+        "author": "tiny Python project",
+        "country": "Nigeria",
+        "imageLink": "images/things-fall-apart.jpg",
+        "language": "English",
+        "link": "/voicertotext",
+        "pages": 209,
+        "title": "Voice to text",
+        "year": 1958
+      }
+
+      ,
+      {
+        "author": "Mein Githublink",
+        "country": "Nigeria",
+        "imageLink": "images/things-fall-apart.jpg",
+        "language": "English",
+        "link": "https://github.com/ReneHartjes",
+        "pages": 209,
+        "title": "Githublink",
         "year": 1958
       }
 

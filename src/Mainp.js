@@ -28,7 +28,7 @@ function Mainp() {
     <News />
     
     
-    <SearchBar data={data} />
+    
 
     <Footer />
 

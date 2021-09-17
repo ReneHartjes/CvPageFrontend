@@ -2,6 +2,8 @@ import {Browserrouter, Link} from 'react-router-dom'
 import {useState} from 'react'
 import "./Navbar.css"
 import Logo from "./images/Logo.png"
+import data from './Data.json'
+import SearchBar from './Searchbar'
 
 
 
@@ -44,11 +46,14 @@ function Navbar() {
         <li><Link to="/comments"><a href="">Guestbook</a></Link></li>
         </ul>
 
-       
+
         
     </div>
+
+   
       <div id="emptyclass">
-        <p>.</p>
+        <br></br>
+       
       </div>
    </>
     );

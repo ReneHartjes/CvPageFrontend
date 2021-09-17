@@ -199,6 +199,10 @@ ul li:hover #shnu li {
   .welcomecontainer {
     display: none;
   }
+
+  .Searchysearch {
+    display: none;
+  }
 }
 
 #pipipopo button {
@@ -208,4 +212,13 @@ ul li:hover #shnu li {
   color: white;
   font-size: 18px;
   background-color: brown;
+}
+
+.Searchysearch {
+  margin: auto;
+
+  height: auto;
+  margin-top: -15px;
+
+  opacity: 0.95;
 }

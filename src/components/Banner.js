@@ -5,8 +5,9 @@ import Navbar from "./Navbar";
 import pc2 from "./images/bg1.jpg"
 import {Link} from 'react-router-dom'
 import bgvid from "./images/icoms/bgvid.mp4"
-
+import SearchBar from "./Searchbar";
 import {useState} from 'react'
+import data from './Data.json'
 
 
 
@@ -75,6 +76,9 @@ function Banner() {
         </ul>
        </div>
 
+        <div className="Searchysearch">
+        <SearchBar data={data} />
+        </div>
 
 
         <div id="videoclass">     

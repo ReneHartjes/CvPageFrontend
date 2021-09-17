@@ -54,10 +54,10 @@ function SearchBar({ placeholder, data }) {
       </div>
 
     </div>
-<div className="opstuff">
+<div className="opstuf">
 {filteredData.length != 0 && (
     <div className="dataResult">
-      {filteredData.slice(0, 6).map((value, key) => {
+      {filteredData.slice(0, 3).map((value, key) => {
         return (
           <a className="dataItem" href={value.link} target="_blank">
             <h4>{value.title} </h4>

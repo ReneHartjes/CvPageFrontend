@@ -1,0 +1,55 @@
+.weatherwrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.citycheck {
+  background-image: url("./images/opcbg2.png");
+  height: 200px;
+  text-align: center;
+  border-radius: 15px;
+  color: aliceblue;
+  margin-top: 15px;
+  padding: 35px;
+}
+
+.Outputdata {
+  border: 1px grey solid;
+  text-align: center;
+}
+
+.Outputdata h4 {
+  padding: 3px;
+}
+
+.citycheck h5 {
+  padding: 5px;
+  border-bottom: 1px white;
+}
+
+.Outputdata h3 {
+  padding: 4px;
+}
+#errormsg {
+  font-size: 10px;
+}
+.citycheck h2 {
+  margin-bottom: 15px;
+}
+
+.citycheck input {
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.citycheck button {
+  padding-bottom: 9px;
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+
+  background-size: cover;
+  background-image: url("./images/Rating/Lupe.png");
+}

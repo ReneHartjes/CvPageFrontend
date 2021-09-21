@@ -14,6 +14,7 @@ import data from './components/Data.json'
 import "./index.css"
 import {BrowserRouter, Switch, Route} from "react-router-dom"
 import SearchBar from "./components/Searchbar";
+import Fetchi from "./components/Fetchi";
 
 function Mainp() {
   return (
@@ -28,7 +29,7 @@ function Mainp() {
     <News />
     
     
-    
+    <Fetchi />
 
     <Footer />
 

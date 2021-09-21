@@ -19,6 +19,7 @@ function CommentOP() {
     Axios.get("http://localhost:3001/api/get").then((response) =>{
       console.log(response.data)
       changecmt(response.data)
+      alert("backend not uploaded cause Heroku wants a creditcard ..Still on Github (working on localhost)")
     })
 
   }, [] )
@@ -28,6 +29,7 @@ function CommentOP() {
     
     Axios.post("http://localhost:3001/api/insert",{namess:name, msgss:msgs})
     window.location.reload();
+    alert("backend not uploaded cause Heroku wants a creditcard ..Still on Github (working locally rly well)")
     
   }
 

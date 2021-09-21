@@ -22,8 +22,8 @@ export default function Fetchi() {
                     if(response.data.name.length >= 2){
                         {console.log(response.data.length);document.getElementById('imgidsrc').innerText = "City: " + response.data.name;
                 
-                 document.getElementById('h4idsrc1').innerText= (response.data.main.temp_max +" Kelvin Maxtemp");
-                document.getElementById('h4idsrc2').innerText= (response.data.main.temp_min + " Kelvin Mintemp");
+                 document.getElementById('h4idsrc1').innerText= (Math.round(response.data.main.temp_max -273) +" °C MaxTemp");
+                document.getElementById('h4idsrc2').innerText= (Math.round(response.data.main.temp_min -273) +" °C MinTemp");
                  document.getElementById('h3idsrc').innerText= ("Country: " + response.data.sys.country )}
                     }
                   })

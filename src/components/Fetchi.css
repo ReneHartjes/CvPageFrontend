@@ -6,7 +6,7 @@
 
 .citycheck {
   background-image: url("./images/opcbg2.png");
-  height: 200px;
+
   text-align: center;
   border-radius: 15px;
   color: aliceblue;
@@ -15,7 +15,6 @@
 }
 
 .Outputdata {
-  border: 1px grey solid;
   text-align: center;
 }
 

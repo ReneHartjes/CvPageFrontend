@@ -15,8 +15,18 @@ import "./index.css"
 import {BrowserRouter, Switch, Route} from "react-router-dom"
 import SearchBar from "./components/Searchbar";
 import Fetchi from "./components/Fetchi";
+import Modal from "./components/Modal";
+import {useState, useEffect} from 'react'
 
 function Mainp() {
+
+  const [modaly,setmodaly] = useState(false)
+  useEffect(() => {
+
+
+    setTimeout(setmodaly(true), 7000);
+
+  },[])
   return (
     <div className="Mainp">
   
@@ -31,6 +41,10 @@ function Mainp() {
     
     <Fetchi />
 
+    
+    
+    
+    {modaly && <Modal opener = {setmodaly}/>}
     <Footer />
 
       

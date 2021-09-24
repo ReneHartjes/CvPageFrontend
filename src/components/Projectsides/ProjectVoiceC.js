@@ -48,7 +48,7 @@ function ProjectVoiceC() {
 
             <div className="gitclass">
               <h4> Code on Github: </h4>
-            <a href="https://github.com/ReneHartjes/Python-OpenCV-IncognitoLog/blob/main/main.py">
+            <a href="https://github.com/ReneHartjes/VoiceControlled-LEDs/blob/main/main.py">
                 <img src={bg12}></img> </a>
 
             </div>

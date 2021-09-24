@@ -5,12 +5,14 @@
 
 .App {
   background-size: cover;
+  font-family: "Roboto", sans-serif;
   padding: 0px;
   background-image: linear-gradient(to right, #28313b, #485461);
   margin: 0px;
 }
 
 .Mainp {
+  font-family: "Roboto", sans-serif;
   background-size: cover;
 
   padding: 0px;
@@ -19,6 +21,7 @@
 }
 
 .Myp {
+  font-family: "Roboto", sans-serif;
   background-size: cover;
   padding: 0px;
   margin: 0px;

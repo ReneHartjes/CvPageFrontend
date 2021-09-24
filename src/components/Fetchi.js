@@ -43,7 +43,7 @@ export default function Fetchi() {
 
 
             <div className="Outputdata">
-            <p id="errormsg"> If error: Free-API is bust again, try in a little</p>
+            <p id="errormsg"> </p>
           <h3 id="imgidsrc"></h3>
              <h4 id="h3idsrc"> </h4>
             <h4 id="h4idsrc1"></h4> 

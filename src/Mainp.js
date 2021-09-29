@@ -16,7 +16,9 @@ import {BrowserRouter, Switch, Route} from "react-router-dom"
 import SearchBar from "./components/Searchbar";
 import Fetchi from "./components/Fetchi";
 import Modal from "./components/Modal";
+import Realslimslider from "./components/Realslimslider";
 import {useState, useEffect} from 'react'
+import Divider from "./components/Divider";
 
 function Mainp() {
 
@@ -33,9 +35,10 @@ function Mainp() {
     <Banner />
     
     <Body />
-    <Welcometext />
-    <Services className="servicescl" />
     
+    <Services className="servicescl" />
+    <Divider />
+    <Realslimslider />
     <News />
     
     

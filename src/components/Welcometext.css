@@ -16,3 +16,89 @@
   padding: 5px;
   color: whitesmoke;
 }
+
+.btnline {
+  display: flex;
+  justify-content: center;
+}
+
+.btnline button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin: 4px;
+  background-color: lightslategray;
+}
+
+.btnline button:hover {
+  width: 45px;
+  height: 45px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+@keyframes pew1 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.theone {
+  width: 30px;
+  height: 30px;
+  background-color: aqua;
+}
+
+#im2 {
+  width: 650px;
+}
+
+@media (max-width: 650px) {
+  #im1 {
+    display: none;
+  }
+  #im3 {
+    display: none;
+  }
+  #im2 {
+    width: 350px;
+  }
+  .btnline {
+    display: none;
+  }
+  #dividerimgimg {
+    display: none;
+  }
+}
+
+.sliderei {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position-y: 30%;
+}
+
+.divider {
+  width: 100%;
+  height: 290px;
+  background-image: url("./images/Gallery/bg1.png");
+}
+
+#dividerimg {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: -55px;
+}

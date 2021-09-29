@@ -2,24 +2,32 @@
    
 
     {
-        "Name": "",
-        "text": ""
+        "id": "1",
+        "srcc": "./images/Gallery/pic1",
+        "text":"ein schoenes bild"
+
+        
+
       },
       {
-        "Name": "",
-        "text": ""
+        "id": "2",
+        "srcc": "./images/Gallery/pic2",
+        "text":"ein schoenes bild"
       },
       {
-        "Name": "Jon",
-        "text": "Dies ist schön"
+        "id": "3",
+        "srcc": "./images/Gallery/pic3",
+        "text":"ein schoenes bild"
       },
       {
-        "Name": "",
-        "text": ""
+        "id": "4",
+        "srcc": "./images/Gallery/pic4",
+        "text":"ein schoenes bild"
       },
       {
-        "Name": "",
-        "text": ""
+        "id": "5",
+        "srcc": "./images/Gallery/pic5",
+        "text":"ein schoenes bild"
       }
    
 

@@ -96,6 +96,14 @@
   background-image: url("./images/Gallery/bg1.png");
 }
 
+.divider2 {
+  width: 100%;
+  height: 290px;
+  background-image: url("./images/Gallery/dividerus.png");
+  background-position-y: 80%;
+  margin-bottom: -200px;
+}
+
 #dividerimg {
   display: flex;
   justify-content: center;

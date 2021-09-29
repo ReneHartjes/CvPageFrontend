@@ -19,6 +19,7 @@ import Modal from "./components/Modal";
 import Realslimslider from "./components/Realslimslider";
 import {useState, useEffect} from 'react'
 import Divider from "./components/Divider";
+import Upsidedivider from "./components/Upsidedivider";
 
 function Mainp() {
 
@@ -48,6 +49,9 @@ function Mainp() {
     
     
     {modaly && <Modal opener = {setmodaly}/>}
+
+    <Upsidedivider />
+
     <Footer />
 
       

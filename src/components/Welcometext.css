@@ -86,8 +86,6 @@
 .sliderei {
   display: flex;
   justify-content: center;
-  background-size: cover;
-  background-position-y: 30%;
 }
 
 .divider {

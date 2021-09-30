@@ -20,6 +20,15 @@
 .btnline {
   display: flex;
   justify-content: center;
+  width: 450px;
+  margin: auto;
+  background-image: url("./images/Gallery/bgtryout.png");
+  padding-bottom: 15px;
+  padding-top: 15px;
+  height: 55px;
+  margin-top: 15px;
+  border-radius: 15px;
+  box-shadow: slategray 0px 0px 15px;
 }
 
 .btnline button {
@@ -27,6 +36,7 @@
   height: 35px;
   border-radius: 50%;
   margin: 4px;
+  margin-top: 13px;
   background-color: lightslategray;
 }
 
@@ -86,6 +96,11 @@
 .sliderei {
   display: flex;
   justify-content: center;
+  background-image: url("./images/Gallery/bgtryout.png");
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-position-y: 40%;
+  box-shadow: slategray 0px 0px 15px;
 }
 
 .divider {
@@ -107,4 +122,11 @@
   justify-content: center;
   justify-items: center;
   margin-top: -55px;
+}
+
+#theheadid {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px grey dotted;
+  margin-bottom: 15px;
 }

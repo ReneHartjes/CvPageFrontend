@@ -3,7 +3,7 @@ import './Welcometext.css'
 import data from './Database.json'
 import Sliderthing from './Sliderthing'
 import dividerss from './images/Gallery/divider2.png'
-
+import headline from './images/Gallery/Designs.png'
 export default function Realslimslider() {
 
     const [id, setid] = useState(1)
@@ -319,6 +319,12 @@ export default function Realslimslider() {
 
     return (
         <div className="thesliderwrapper">
+
+                <div id="theheadid">
+                        <img src={headline}></img>
+                </div>
+
+
                         <div className="sliderei">
                 <button className="leftb" onClick={downwards}> -</button>
                 <img id="im1" src ={require(`./images/Gallery/pic${id}.png`).default}></img>

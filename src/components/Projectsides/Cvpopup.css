@@ -8,6 +8,7 @@
   border: maroon 5px solid;
   box-shadow: black 1px 1px 1px;
   opacity: 0.9;
+  margin: 8px;
 }
 
 .skillcontainer h3 {
@@ -44,4 +45,40 @@
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
+}
+
+.bigcontainer {
+  display: flex;
+
+  justify-content: center;
+}
+
+.skillcontainer2 {
+  width: 250px;
+  height: 410px;
+  background-color: brown;
+  padding: 10px;
+  margin: auto;
+  border-radius: 15px;
+  border: maroon 5px solid;
+  box-shadow: black 1px 1px 1px;
+  opacity: 0.9;
+  margin: 8px;
+}
+
+.skillcontainer2 h3 {
+  color: whitesmoke;
+  border-bottom: rgb(250, 237, 237) 1px solid;
+
+  margin-top: 15px;
+  text-align: center;
+  padding: 3px;
+}
+
+#responsive {
+  color: white;
+  border: 1px white solid;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 5px;
 }

@@ -22,13 +22,12 @@
   justify-content: center;
   width: 450px;
   margin: auto;
-  background-image: url("./images/Gallery/bgtryout.png");
+  background-image: none;
   padding-bottom: 15px;
   padding-top: 15px;
   height: 55px;
-  margin-top: 15px;
+  margin-top: -69px;
   border-radius: 15px;
-  box-shadow: slategray 0px 0px 15px;
 }
 
 .btnline button {

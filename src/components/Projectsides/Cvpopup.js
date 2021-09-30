@@ -94,6 +94,65 @@ export default function Cvpopup({opener}) {
 
 
 
-        </div></div>
+        </div>
+        
+        
+        
+        <div className="skillcontainer2">
+
+
+<h3> Webdev tools</h3>
+
+<div className="Proglang">
+<div className="skill1">	
+    <h4>React</h4>
+    <img id="ratingimg" src={fourstars}></img>
+</div>
+
+<div className="skill1">	
+    <h4>SASS/SCSS</h4>
+    <img id="ratingimg" src={threehalfstars}></img>
+</div>
+
+<div className="skill1">	
+    <h4>Node</h4>
+    <img id="ratingimg" src={twohalfstars}></img>
+</div>
+
+<div className="skill1">	
+    <h4>Wordpress</h4>
+    <img id="ratingimg" src={fourstars}></img>
+</div>
+<div className="skill1">	
+    <h4>React native</h4>
+    <img id="ratingimg" src={twostars}></img>
+</div>
+<div className="skill1">	
+    <h4>Git</h4>
+    <img id="ratingimg" src={twostars}></img>
+</div>
+<div className="skill1">	
+    <h4>Bootstrap</h4>
+    <img id="ratingimg" src={twostars}></img>
+</div>
+
+<div className="skill1">	
+    <p id="responsive">I additionally create responsive designs (if necessary)</p>
+</div>
+</div>
+
+
+
+
+
+
+
+</div>
+        
+        
+        
+        
+        
+        </div>
     )
 }

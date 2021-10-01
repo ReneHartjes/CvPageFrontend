@@ -4,7 +4,9 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
+
 import './index.css'
+import Upsidedivider from "./components/Upsidedivider";
 
 function Mypro() {
     return (
@@ -13,8 +15,9 @@ function Mypro() {
         <Navbar  />
         <div id="navnavbar"></div>
         <Projects />
-        <Footer />
-        
+       
+        <Upsidedivider />
+         <Footer />
       </div>
     );
   }

@@ -124,7 +124,7 @@ export default function Cvpopup({opener}) {
     <img id="ratingimg" src={fourstars}></img>
 </div>
 <div className="skill1">	
-    <h4>React native</h4>
+    <h4>Flutter</h4>
     <img id="ratingimg" src={twostars}></img>
 </div>
 <div className="skill1">	

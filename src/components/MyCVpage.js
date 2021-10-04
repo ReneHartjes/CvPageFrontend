@@ -63,7 +63,7 @@ export default function MyCVpage() {
             
             <Cvpopup opener= {blub} />
             
-            
+           
             </div>
 
             <div className="cvtxtsub3">

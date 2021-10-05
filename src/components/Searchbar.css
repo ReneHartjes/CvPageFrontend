@@ -55,7 +55,6 @@
 }
 
 .dataItem {
-  position: flex;
   width: 300px;
   justify-content: center;
   text-align: center;
@@ -69,6 +68,7 @@
   border-radius: 3px;
   color: whitesmoke;
   opacity: 0.8;
+  margin-left: 200px;
   background-image: linear-gradient(to right, #28313b, #485461);
 }
 

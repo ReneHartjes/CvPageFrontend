@@ -27,7 +27,7 @@ export default function MyCVpage() {
         <Navbar />
         <div className="cvcontainer2">
             <div className="cvimgclass">
-            <img src={cvimg}></img>
+            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEH86rC3cFJFQ/profile-displayphoto-shrink_800_800/0/1619806124923?e=1639008000&v=beta&t=gQueJxa3Tn8TE1aJIUfAT9uZDGZ7PbG4s8UawLbkF30"></img>
             <p>My Name is Rene and I am a...</p>
             <h3>React Frontend-developer</h3>
             </div>

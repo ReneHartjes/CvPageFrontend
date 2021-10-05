@@ -16,10 +16,10 @@ function CommentOP() {
   const[cmt,changecmt]= useState([])
 
   useEffect(()=>{
-    Axios.get("http://localhost:3001/api/get").then((response) =>{
+    Axios.get("https://jsonplaceholder.typicode.com/users").then((response) =>{
       console.log(response.data)
       changecmt(response.data)
-      alert("backend not uploaded cause Heroku wants a creditcard ..Still on Github (working on localhost)")
+      alert("backend not uploaded cause Heroku wants a creditcard(My local CRUD Rest-API on Git) ..Ergo a little Boilerplate API data :) )")
     })
 
   }, [] )
@@ -65,11 +65,11 @@ function CommentOP() {
         {cmt.map((val) => {
           return (
             <div className="wholepack"> 
-            <div className="uid"> <h2>{val.userid} schrieb:</h2></div> 
+            <div className="uid"> <h2>{val.name} schrieb:</h2></div> 
             
-            <div className="date"><h4>{val.datern} </h4></div> 
+            <div className="date"><h4>email : {val.email} </h4></div> 
           
-            <div className ="texts"><p className="para">{val.usertext} </p></div>
+            <div className ="texts"><p className="para">{val.company.catchPhrase} </p></div>
             </div>
           )
          

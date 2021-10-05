@@ -105,9 +105,9 @@
 .divider {
   width: 100%;
   height: 290px;
-  background-image: url("./images/Gallery/bg2.png");
+  background-image: url("./images/Gallery/bg3.png");
   background-size: cover;
-  background-position-y: 35%;
+  background-position-y: 8%;
 }
 
 .divider2 {

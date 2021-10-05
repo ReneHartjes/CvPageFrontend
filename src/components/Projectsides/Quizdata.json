@@ -1,0 +1,60 @@
+[
+   
+
+    {
+        "id": "1",
+        "Question": "How is it today?",
+        "Aw1": "goodie",
+        "Aw2": "Not so neat",
+        "Aw3": "wowy",
+        "Aw4": "Outstanding",
+        "Raw": "goodie"
+
+        
+
+      },
+      {
+        "id": "2",
+        "Question": "How are things?",
+        "Aw1": "nice",
+        "Aw2": "ok",
+        "Aw3": "zwanzig",
+        "Aw4": "Outstanding",
+        "Raw": "zwanzig"
+
+      },
+      {
+        "id": "3",
+        "Question": "Math is ..?",
+        "Aw1": "fun",
+        "Aw2": "meh",
+        "Aw3": "okidoki",
+        "Aw4": "lala",
+        "Raw": "okidoki"
+
+      },
+      {
+        "id": "4",
+        "Question": "2+2 is? ",
+        "Aw1": "7",
+        "Aw2": "22",
+        "Aw3": "fuck off.. prick",
+        "Aw4": "3",
+        "Raw": "22"
+
+      },
+      {
+        "id": "5",
+        "Question": "How is it today?",
+        "Aw1": "goodie",
+        "Aw2": "Not so neat",
+        "Aw3": "wowy",
+        "Aw4": "Outstanding",
+        "Raw": "goodie"
+
+      }
+   
+
+        
+        
+        ]

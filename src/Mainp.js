@@ -52,10 +52,10 @@ function Mainp() {
     {modaly && <Modal opener = {setmodaly}/>}
 
 
-   
+   <Quiz />
 
     <Upsidedivider />
-
+    
     <Footer />
 
       

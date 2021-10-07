@@ -1,3 +1,4 @@
+import axios from 'axios'
 import {useState, useEffect} from 'react'
 import './Quiz.css'
 import data from './Quizdata.json'
@@ -161,6 +162,21 @@ function Quiz() {
          
 
         }
+  
+        function fetchery()  {
+
+            axios.get("http://167.172.182.171/api/lol").then(req =>{
+
+
+            const c = req;
+            console.log(req)
+
+            })
+
+            
+
+        }
+
 
     return (
         <div className="Quiz">
@@ -185,7 +201,7 @@ function Quiz() {
                 </div>
 
                 <button onClick={shuffl} > Next</button>
-
+                <button onClick={fetchery} > Nfere</button>
             </div>
             
         </div>

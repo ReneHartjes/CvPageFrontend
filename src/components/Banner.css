@@ -30,7 +30,7 @@
 }
 
 #weirdo {
-  margin-left: 6px;
+  text-align: center;
 }
 
 .navnav ul li {
@@ -221,4 +221,17 @@ ul li:hover #shnu li {
   margin-top: -15px;
 
   opacity: 0.95;
+}
+
+#weirdo3 {
+  margin-left: -30px;
+}
+
+#weirdo {
+  margin-left: -5px;
+}
+
+.navnav {
+  margin-left: 55px;
+  padding-right: 55px;
 }

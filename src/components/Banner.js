@@ -72,7 +72,7 @@ function Banner() {
        </ul>
         
         </li>
-        <li><Link to="/comments"><a href="">Guestbook</a></Link></li>
+        <li><Link to="/comments"><a id="weirdo3" href="">Guestbook</a></Link></li>
         </ul>
        </div>
 

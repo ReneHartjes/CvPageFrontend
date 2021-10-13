@@ -19,23 +19,7 @@ function Banner() {
   const [click, clicker] = useState(false)
   
 
-  function staty(){
-    clicker(true)
-  }
 
-  if (click) {
-  return(
-    <div id="pipipopo">
-
-
-    <Link to="/"><button className="clickbtn">Start</button> </Link>
-    <Link to="/projects"><button className="clickbtn">About</button> </Link>
-    <Link to="/projects"><button className="clickbtn">Projects</button></Link>
-    <Link to="/comments"><button className="clickbtn">Guestbook</button></Link>
-    
-    </div>)
-  
-  }
     return (
     
       
@@ -44,7 +28,15 @@ function Banner() {
 
     <div className="bannercontainer">
       
-      <button id="themenu" onClick={()=>clicker(true)}>Menu</button>
+      <div id="pipipopo">
+
+
+<Link to="/"><button >Start</button> </Link>
+<Link to="/projects"><button >About</button> </Link>
+<Link to="/projects"><button >Projects</button></Link>
+<Link to="/comments"><button >Guestbook</button></Link>
+
+</div>)
       
       <div className="navnav">
       <ul>

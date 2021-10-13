@@ -175,6 +175,10 @@ ul li:hover #shnu li {
   }
 }
 
+#pipipopo {
+  display: none;
+}
+
 @media (max-width: 750px) {
   .navnav ul li {
     display: none;
@@ -190,6 +194,12 @@ ul li:hover #shnu li {
     opacity: 0.8;
     font-size: 18px;
     color: white;
+  }
+  #pipipopo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
   }
 
   .bannercontainer {

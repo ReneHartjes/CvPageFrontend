@@ -1,0 +1,73 @@
+.navwrapper nav {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.navwrapper nav ul li {
+  display: inline;
+  position: relative;
+  float: top;
+  margin: 10px;
+
+  font-size: 22px;
+}
+#outlier {
+  margin: -5px;
+}
+.navwrapper a {
+  color: white;
+  text-decoration: none;
+}
+.navwrapper {
+  display: none;
+}
+.navwrapper nav ul {
+  margin-right: 45px;
+  height: 30px;
+
+  display: inline-block;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: white;
+  padding: 15px;
+
+  background-color: #333;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.sticky a {
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.navwrapper ul > li > ul > li {
+  display: none;
+  position: relative;
+
+  z-index: -10000;
+}
+
+.navwrapper ul li:hover {
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+.navwrapper ul li ul {
+  height: 140px;
+}
+
+#navbar2 {
+  z-index: 10000000;
+  padding: 15px;
+}
+
+#nony {
+  display: none;
+}

@@ -1,0 +1,75 @@
+.frame1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.smallwrap {
+  flex-wrap: wrap;
+  background-color: #555;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  max-width: 1300px;
+}
+
+.col-4 {
+  flex-basis: 22%;
+  border: grey 1px solid;
+  margin: 10px;
+  display: block;
+  text-align: center;
+  background: linear-gradient(to right, #da4453, #89216b);
+  box-shadow: 0px 5px 15px #333;
+  border-radius: 15px;
+}
+
+.col-4 img {
+  width: 250px;
+}
+
+.col-4 #prodimg {
+  height: 200px;
+  border: 1px solid #333;
+  box-shadow: 0px 5px 15px #333;
+  width: 250;
+  margin: 5px;
+}
+
+.col-4 button {
+  width: 135px;
+  height: 35px;
+
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.col-4 h5 {
+  margin: 10px;
+  color: white;
+  font-size: 22px;
+}
+
+#popper {
+  width: 100px;
+  height: 45px;
+  font-size: 25px;
+  margin: 20px;
+  background-color: maroon;
+  color: white;
+}
+
+.btndiv {
+  display: flex;
+  justify-content: center;
+}
+
+.carder {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.carderwrapper {
+  width: 150px;
+}

@@ -19,7 +19,7 @@ export default function Modal({opener}) {
                 <h3>Annoying Modal</h3>
                 
 
-                <p> I dont want cookies or anything, just wanna annoy you with this semi-cool Modal/Popup</p>
+                <p> Welcome, and thank you for your visit.</p>
 
                 <button onClick ={()=> opener(false)}>Acknowledge</button>
 

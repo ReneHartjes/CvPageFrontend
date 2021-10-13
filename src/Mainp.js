@@ -21,6 +21,8 @@ import {useState, useEffect} from 'react'
 import Divider from "./components/Divider";
 import Upsidedivider from "./components/Upsidedivider";
 import Quiz from "./components/Projectsides/Quiz";
+import Frameforcode from "./components/Projectsides/Frameforcode";
+import Navbar2 from "./components/Navbar2";
 
 function Mainp() {
 
@@ -35,7 +37,7 @@ function Mainp() {
     <div className="Mainp">
   
     <Banner />
-    
+    <Navbar2 />
     <Body />
     
     <Services className="servicescl" />

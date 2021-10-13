@@ -32,7 +32,7 @@ function CommentOP() {
   const deletepost = async  (id) => {
 
    await Axios.delete(`http://46.101.163.85/delete/${id}`) 
-   .then (window.location.reload())
+   .then (alert("refresh!"))
    
   };
 
@@ -48,7 +48,7 @@ function CommentOP() {
         ...listy,
         { username: username, usertext: usertext },
       ]);
-    }).then(window.location.reload());
+    }).then(alert("refresh!"));
     
   }
 

@@ -43,7 +43,7 @@ function Navbar() {
        </ul>
         
         </li>
-        <li><Link to="/comments"><a href="">Guestbook</a></Link></li>
+        <li><Link to="/comments" id="weirdo2"><a href="">Guestbook</a></Link></li>
         </ul>
 
 

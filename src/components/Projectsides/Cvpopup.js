@@ -137,7 +137,8 @@ export default function Cvpopup({opener}) {
 </div>
 
 <div className="skill1">	
-    <p id="responsive">I additionally create responsive designs (if necessary)</p>
+<h4>MERN-Stack</h4>
+    <img id="ratingimg" src={threestars}></img>
 </div>
 </div>
 
